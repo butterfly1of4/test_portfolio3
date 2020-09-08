@@ -1,5 +1,6 @@
 {
-  "name": "test_portfolio3",
+  "homepage": "test-portfolio3-5i3f970t1.vercel.app",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,6 +16,8 @@
     "react-sticky-header": "^0.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
