@@ -1,0 +1,34 @@
+.Languages_title {
+    font-size: 60px;
+    display: flex;
+    font-family: 'Arvo';
+}
+
+.Languages_list {
+    list-style: none;
+    height: 100px;
+}
+.Languages_wrapper {
+
+    margin: 3.7% 4.3% 3.7%
+}
+.Languages_item {
+    display: inline-block;
+}
+.slashes {
+    list-style: none;
+    color: var(--gold);
+    display: inline-block;
+}
+.outer_wrapper {
+    box-sizing: border-box;
+
+}
+.Languages {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    color: white;
+    box-sizing: border-box;
+    grid-row: 3;
+}

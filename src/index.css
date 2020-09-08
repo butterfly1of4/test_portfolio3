@@ -1,7 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,3 +13,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+
+  --gold: #B2AB11;
+  --gray: #C4C4C4;
+  --black: #000000;
+  --teal: #53CDE0;
+  --blue: #49B0F5;
+  --red: #EC4723;
+
+/* Default font */
+  --default-font: "Open Sans", sans-serif;
+
+/*Icons/Images*/
+  --next-section-arrow: url("./assets/arrow_down.png");
+  --code-background: url("./assets/background.png");
+  --email-logo: url("./assets/Email.png");
+  --github-logo: url("./assets/Github.png");
+  --JH-circle-logo:url("./assets/CircleLogo.png");
+  --JH-logo-one: url("./assets/JHLogo.png");
+  --JH-logo-two: url("./assets/JH2.png");
+  --linkedIN-logo: ("./assets/LinkedIN.png");
+  --social-block: ("./assets/Social.png");
+} 
+

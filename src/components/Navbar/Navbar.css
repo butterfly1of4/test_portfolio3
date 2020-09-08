@@ -1,0 +1,42 @@
+
+.circleLogo {
+  /* z-index: 5; */
+  background: rgba(0,0,0,0);
+  width: 60px;
+  height: 60px;
+  margin: 1% auto 2.5% 7%;
+
+
+}
+.Nav_item_wrapper {
+
+white-space: nowrap;
+  margin: 3.7% 4.3% 3.7% auto;
+  background: rgba(0, 0, 0, 0,.2);
+
+}
+.Nav_link {
+  color: var(--gold);
+  list-style: none;
+  z-index:4;
+  font-size: 16px;
+  font-family: 'Open Sans';
+}
+.Nav_item {
+  opacity: 4;
+  display: inline-block;
+}
+.Header_root {
+  z-index: 3;
+  opacity: 1;
+}
+.Header {
+  z-index: -1;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  /* opacity: .2; */
+  /* background: rgba(0, 0, 0, 0,.2); */
+  height: 80px;
+  margin-top: 0;
+}

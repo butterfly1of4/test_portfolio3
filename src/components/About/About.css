@@ -1,0 +1,44 @@
+.About_text{
+    margin-bottom: 10px;
+    max-width: 64%
+}
+.About_image {
+    /* max-width: 364px; */
+    width: 364px;
+
+    display: inline-block;
+    /* max-height:233px; */
+    height:233px;
+
+    /* height: 2%; */
+    /* margin: 10px 10px auto auto; */
+    background-color: var(--gold);
+    /* width: 4%; */
+}
+.About_wrapper{
+    box-sizing: border-box;
+    display: inline-flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.About_title {
+    display: flex;
+  font-family: 'Arvo';
+    font-size: 60px;
+    width: 100%;
+    height: 175px;
+    align-self: flex-start;
+
+}
+
+.About {
+    color: white;
+    border: 1px solid red;
+    box-sizing: border-box;
+    grid-row: 4;
+    box-sizing:border-box;
+    justify-content: flex-start;
+ 
+}

@@ -1,0 +1,59 @@
+.Hi_container {
+
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Hi {
+  font-family: 'Arvo';
+  display: flex;
+  margin: 20% auto auto auto;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 80px;
+  text-align: left;
+}
+
+.Period {
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--gold);
+  
+}
+.Developer_violinist {
+  display: flex;
+  font-size: 32px;
+  font-family: 'Open Sans';
+  background-color: rgba(0, 0, 0, 0);
+}
+.Landing_br {
+  background-color: rgba(0,0,0,0);
+    color: var(--gold);
+    width: 75px;
+    border: 1px solid;
+}
+
+.About_blurb {
+  font-size: 24px;
+  font-family: 'Open Sans';
+  background-color: rgba(0,0,0,0);
+  line-height: 32px;;
+}
+.arrow_down {
+  display: flex;
+  background-color: rgba(0,0,0,0);
+  margin: auto auto 1% auto;
+
+}
+.LandingPage {
+  display: flex-grid;
+  flex-direction: column;
+  justify-content: flex-start;
+  grid-row: 1;
+  width: 100%;
+  height: 52%;
+  max-height: 70%;
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+  color: wHite;
+  margin: -200px -12px auto --12px;
+}
+
+

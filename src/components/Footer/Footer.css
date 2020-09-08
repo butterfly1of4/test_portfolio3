@@ -1,0 +1,30 @@
+
+
+.Divider{
+    color: var(--gold)
+}
+
+.Copywrite {
+    color: white;
+    margin: 1% auto 1% auto;
+    display: flex;    
+}
+
+.JHLogo {
+    margin: 1% auto auto auto;
+
+}
+
+.Footer_icons {
+    display: flex;
+    margin: 1% auto auto auto;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid orange;
+    justify-items: center;
+    margin-bottom: 6%;
+}
