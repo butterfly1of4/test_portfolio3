@@ -23,7 +23,7 @@ class Contact extends Component {
             </p>
             <div className="Button_resume_buttons">
               <div className="ButtonLink_wrapper">
-                <button className="Resume_button"><a className="Resume_link" style={{textDecoration:'none'}} ref="https://docs.google.com/document/d/1Y76f5XKECmG6bzd_AMMGS6MhCS7aG_f44R0sQO2azz8/export?format=pdf" download>VIEW RESUME</a></button>
+                <button className="Resume_button"><a className="Resume_link" style={{textDecoration:'none'}} href="https://docs.google.com/document/d/1Y76f5XKECmG6bzd_AMMGS6MhCS7aG_f44R0sQO2azz8/export?format=pdf" download>VIEW RESUME</a></button>
               </div>
               <div className="ContactLink_wrapper">
                 <button className="Contact_button">CONTACT ME</button>

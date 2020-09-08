@@ -29,8 +29,6 @@ const Languages = (props) => {
           <div className="slashes">//</div>
           <li className="Languages_item">SQL</li>
           <div className="slashes">//</div>
-          <li className="Languages_item"></li>
-          <div className="slashes">//</div>
           <li className="Languages_item">Front End</li> <div className="slashes">//</div>
           <li className="Languages_item">CSS</li>
           <div className="slashes">//</div>
