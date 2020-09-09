@@ -12,7 +12,7 @@
 
 white-space: nowrap;
   margin: 3.7% 4.3% 3.7% auto;
-  background: rgba(0, 0, 0, 0,.2);
+  background: rgba(0, 0, 0, 0);
 
 }
 .Nav_link {
@@ -21,6 +21,8 @@ white-space: nowrap;
   z-index:4;
   font-size: 16px;
   font-family: 'Open Sans';
+  padding: 2em;
+  opacity: 1;
 }
 .Nav_item {
   opacity: 4;
@@ -29,6 +31,10 @@ white-space: nowrap;
 .Header_root {
   z-index: 3;
   opacity: 1;
+  width: 80%;
+  text-align: right;
+  display: flex;
+  align-items: center;
 }
 .Header {
   z-index: -1;
@@ -36,7 +42,7 @@ white-space: nowrap;
   width: 100%;
   box-sizing: border-box;
   /* opacity: .2; */
-  /* background: rgba(0, 0, 0, 0,.2); */
+  background: rgba(0, 0, 0, 0,.2);
   height: 80px;
   margin-top: 0;
 }

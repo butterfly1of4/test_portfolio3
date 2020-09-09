@@ -17,7 +17,7 @@ const LandingPage = (props) => {
       <h4 className="Developer_violinist">
         Developer by day. Violinist by night.
       </h4>
-      <br className="Landing_br" />
+      <hr className="Landing_hr" />
       <p className="About_blurb">
         I’m a Full stack Developer, web developer + recent grad of General
         Assembly in Washington. DC. ...Looking for full time or contract

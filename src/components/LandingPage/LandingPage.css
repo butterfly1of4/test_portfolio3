@@ -24,11 +24,13 @@
   font-family: "Open Sans";
   background-color: rgba(0, 0, 0, 0);
 }
-.Landing_br {
+.Landing_hr {
   background-color: rgba(0, 0, 0, 0);
   color: var(--gold);
   width: 75px;
   border: 1px solid;
+  margin-left: 3em;
+  margin-bottom: 2.5em;
 }
 
 .About_blurb {
