@@ -1,6 +1,7 @@
 * {
-  margin: 0 12px 0 12px;
+  /* margin: 0 12px 0 12px; */
   background-color: var(--black);
+
 }
 
 body {
@@ -8,9 +9,17 @@ body {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: auto;
   height: 100vh;
-  width: 100vw;
+  max-width: initial;
   margin: auto;
-  /* max-width: 100vw; */
-  /* min-width: 500px; */
+  background-size: cover;
+  
 }
 
+.App_container {
+  /* width: 100%; */
+  max-width: 100vw;
+  background-size: cover;
+  margin-right: 0;
+  margin-left: 0;
+
+}

@@ -24,18 +24,20 @@
 }
 .project_thumbnails {
   display: flex;
-  /* background-color: red; */
+  background-color: red;
   border-radius: 4px;
   /* max-height: 300px; */
   justify-items:space-evenly;
   margin-bottom: auto 10% 10px 10%;
+  max-width: 50%;
 }
 .Portfolio_title {
   display: flex;
   font-family: 'Arvo';
   font-size: 60px;
-  width: 100%;
-  height: 175px;
+  max-width: 98%;
+  height:2em;
+
 }
 
 .Portfolio {
@@ -47,5 +49,5 @@
   background-color: black;
   color: white;
   border: 2px solid white;
-  max-width: 100vw;
+  max-width: 98%;
 }

@@ -10,7 +10,8 @@ const LandingPage = (props) => {
 
   return (
     <div className="LandingPage">
-      <div className='Hi_container'>
+      <div className="background"
+>     <div className='Hi_container'>
         <span>
       <h1 className="Hi">Hi<div className="Period">.</div> I'm Jenn<div className="Period">.</div> </h1></span>
       <h4 className="Developer_violinist">
@@ -26,7 +27,7 @@ const LandingPage = (props) => {
       </p>
       <img src={arrow_down} className="arrow_down" alt="arrow_down" /> 
       </div>
-  
+      </div> 
     </div>
   );
 };

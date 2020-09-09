@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="App_container">
       <Navbar />
       <Route path="/" exact={true}>
         <LandingPage />

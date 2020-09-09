@@ -18,9 +18,9 @@ class Portfolio extends Component {
         <div className="project_wrapper">
           <ul className="project_thumbnails">
             <li className="thumbnail_item">
-              <div className="thumbnail_pic">
+              <div className="thumbnail_pic1">
                 {" "}
-                <img className="thumbnail" src={BlackTank} />
+                {/* <img className="thumbnail" src={BlackTank} /> */}
               </div>
               <p className="portfolio_links">
                 {" "}
@@ -33,9 +33,9 @@ class Portfolio extends Component {
               </p>
             </li>
             <li className="thumbnail_item">
-              <div className="thumbnail_pic">
+              <div className="thumbnail_pic2">
                 {" "}
-                <img className="thumbnail" src={Saturn} />
+                {/* <img className="thumbnail" src={Saturn} /> */}
               </div>
               <p className="portfolio_links">
                 {" "}
@@ -56,8 +56,8 @@ class Portfolio extends Component {
               </p>
             </li>
             <li className="thumbnail_item">
-              <div className="thumbnail_pic">
-                <img className="thumbnail" src={FilmReel} />
+              <div className="thumbnail_pic3">
+                {/* <img className="thumbnail" src={FilmReel} /> */}
               </div>
               <p className="portfolio_links">
                 {" "}
