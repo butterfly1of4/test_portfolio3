@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Portfolio.css";
 import "../../index.css";
 import BlackTank from "../../assets/BlackTank.png";
-import Saturn from "../../assets/Saturn.png";
+import Saturn from "../../assets/resizeSaturn.png";
 import FilmReel from "../../assets/FilmReel.png";
 
 import { Router, Link, Switch } from "react-router-dom";
@@ -18,9 +18,9 @@ class Portfolio extends Component {
         <div className="project_wrapper">
           <ul className="project_thumbnails">
             <li className="thumbnail_item">
-              <div className="thumbnail_pic1">
+              <div className="thumbnail_pic">
                 {" "}
-                {/* <img className="thumbnail" src={BlackTank} /> */}
+                <img className="thumbnail" src={BlackTank} />
               </div>
               <p className="portfolio_links">
                 {" "}
@@ -33,9 +33,9 @@ class Portfolio extends Component {
               </p>
             </li>
             <li className="thumbnail_item">
-              <div className="thumbnail_pic2">
+              <div className="thumbnail_pic">
                 {" "}
-                {/* <img className="thumbnail" src={Saturn} /> */}
+                <img className="thumbnail" src={Saturn} />
               </div>
               <p className="portfolio_links">
                 {" "}
@@ -46,6 +46,7 @@ class Portfolio extends Component {
                 >
                   NASA PLANETS PAGE
                 </a>
+                <br />
                 <a
                   className="ViewCode"
                   style={{ textDecoration: "none" }}
@@ -56,8 +57,8 @@ class Portfolio extends Component {
               </p>
             </li>
             <li className="thumbnail_item">
-              <div className="thumbnail_pic3">
-                {/* <img className="thumbnail" src={FilmReel} /> */}
+              <div className="thumbnail_pic">
+                <img className="thumbnail" src={FilmReel} />
               </div>
               <p className="portfolio_links">
                 {" "}
@@ -68,6 +69,7 @@ class Portfolio extends Component {
                 >
                   NTERFLIX
                 </a>
+                <br />
                 <a
                   className="ViewCode"
                   style={{ textDecoration: "none" }}
@@ -75,6 +77,7 @@ class Portfolio extends Component {
                 >
                   VIEW CODE FOR FRONTEND
                 </a>
+                <br />
                 <a
                   className="ViewCode"
                   style={{ textDecoration: "none" }}

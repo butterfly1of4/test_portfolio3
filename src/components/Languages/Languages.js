@@ -23,13 +23,14 @@ const Languages = (props) => {
           <div className="slashes">//</div>
           <li className="Languages_item">Git</li>
           <div className="slashes">//</div>
-          <li className="Languages_item">Back End</li>
+          <li className="Languages_item"><span>Back End</span></li>
           <div className="slashes">//</div>
           <li className="Languages_item">MongoDB</li>
           <div className="slashes">//</div>
           <li className="Languages_item">SQL</li>
           <div className="slashes">//</div>
-          <li className="Languages_item">Front End</li> <div className="slashes">//</div>
+          <span>
+          <li className="Languages_item">Front End</li> </span><div className="slashes">//</div>
           <li className="Languages_item">CSS</li>
           <div className="slashes">//</div>
           <li className="Languages_item">HTML</li>

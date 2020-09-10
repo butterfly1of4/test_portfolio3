@@ -1,4 +1,4 @@
-.thumbnail{
+.thumbnail {
   max-width: 25vw;
   height: auto;
   background-color: var(--gold);
@@ -8,30 +8,17 @@
   color: var(--gold);
   font-size: 16px;
   text-align: center;
-  
 }
-.thumbnail_pic1 {
-  background-image: url("../../assets/BlackTank.png");
+.thumbnail_pic {
+  box-sizing: border-box;
   background-color: var(--gold);
   background-position: center;
   background-repeat: no-repeat;
-  min-width: 20vw;
-
+  height: auto;
 }
-.thumbnail_pic2 {
-  background-image: url("../../assets/Saturn.png");
-  background-color: var(--gold);
-  background-position: center;
-  background-repeat: no-repeat;
-  min-width: 20vw;
-
-}
-.thumbnail_pic3 {
-  background-image: url("../../assets/FilmReel.png");
-  background-color: var(--gold);
-  background-position: center;
-  background-repeat: no-repeat;
-  min-width: 20vw;
+.profile_link {
+  text-align: center;
+  margin-top: 5px;
 }
 
 .thumbnail_item {
@@ -41,28 +28,33 @@
   text-align: center;
   padding: 2em;
   width: 25em;
+  height: 20em;
+
 }
 .project_wrapper {
   display: flex;
-  /* height: 20em; */
+  height: auto;
   box-sizing: border-box;
   justify-content: space-evenly;
+  margin-bottom: auto;
 }
 .project_thumbnails {
   display: flex;
-  background-color: red;
+  /* background-color: red; */
   border-radius: 4px;
   justify-content: space-evenly;
-  width: 100vw;
-  margin-bottom: 0;
-  min-width: 20vw; 
+  align-items: center;
+  width: 98vw;
+  margin-bottom: auto;
+  min-width: 20vw;
+  max-width: 30vw;
 }
 .Portfolio_title {
   display: flex;
-  font-family: 'Arvo';
+  font-family: "Arvo";
   font-size: 60px;
   max-width: 98%;
-  height:2em;
+  /* height:2em; */
   margin-left: 3%;
 }
 
@@ -75,5 +67,7 @@
   background-color: black;
   color: white;
   border: 2px solid white;
-  max-width: 98%;
+  max-width: 98%; 
+  /* height: 100%; */
+  padding-bottom:5%;
 }

@@ -8,19 +8,21 @@
 
 .Languages_list {
     list-style: none;
+    font-size: 32px;
     height: 100px;
+    display: flex;
 }
 .Languages_wrapper {
-
-    margin: 3.7% 4.3% 3.7%
+    margin: 3.7% 4.3% 3.7%;
+    max-width: 60%;
 }
 .Languages_item {
-    display: inline-block;
+    display: flex;
 }
 .slashes {
     list-style: none;
     color: var(--gold);
-    display: inline-block;
+    display: flex;
 }
 .outer_wrapper {
     box-sizing: border-box;
