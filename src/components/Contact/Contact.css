@@ -3,17 +3,20 @@
     font-size: 60px;
     display: flex;
     font-family: 'Arvo';
-    /* margin-bottom: 16px; */
+    margin: 5% 3%;
+    
 }
 
 .Contact_text {
+    font-size: 24px;
     margin: auto auto 5% 5%;
 }
 .Resume_button {
-    height: 42px;
-    width: 220px;
+    height: 2.6em;
+    width: 13.7em;
     background-color: black;
     font-size: 16px;
+    margin: 4em 4.5em 1.5em auto;
     font-family: 'Open Sans', serif;
     font-weight: bold;
     border-radius: 5px;
@@ -24,33 +27,40 @@
 
 .Contact_button {
     background-color: var(--gold);
-    height: 42px;
-    width: 220px;
+    height: 2.6em;
+    width: 13.7em;
     color: black;
+    margin: auto 4.5em 4em auto;
     font-size: 16px;
     font-family: 'Open Sans', serif;
     font-weight: bold;
     border-radius: 5px;
-    margin: 5%;
+  
 }
 
-.Content_button_wrapper {
+.Content_wrapper {
     display: flex;
     align-content: center;
 }
+
 a {
     color: var(--gold);
     font-style: none;
 }
+
 .yellow_box{
     width: 79%;
-    height: 236px;
+    min-height: 14.7em ;
+    display: flex;
     border: 4px solid #B2AB11;
     box-sizing:border-box;
     margin: 5% 10% 5% 10%;
-
+    display: flex;
+    /* flex-flow: unset; */
+    justify-content: space-between;
 }
 .Contact {
+    display: flex;
     grid-row: 5;
     box-sizing:border-box;
     border: 1px solid green;

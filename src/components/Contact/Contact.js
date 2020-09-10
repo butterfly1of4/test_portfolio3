@@ -14,22 +14,26 @@ class Contact extends Component {
     return (
       <div className="Contact">
         <div className="yellow_box">
+          <div className="text_wrapper">
           <h1 className="Contact_title">Contact<div className="Period">.</div></h1>
-          <div className="Content_button_wrapper">
+          <div className="Content_wrapper">
             <p className="Contact_text">
               <bold>Want to collaborate? </bold> Looking for a dev with mad
               skills? <br />
               I’m always open to discussing new projects or partnerships.
             </p>
-            <div className="Button_resume_buttons">
+            </div>
+            </div>
+            <div>
+            <div className="Button_resume_button">
               <div className="ButtonLink_wrapper">
                 <button className="Resume_button"><a className="Resume_link" style={{textDecoration:'none'}} href="https://docs.google.com/document/d/1Y76f5XKECmG6bzd_AMMGS6MhCS7aG_f44R0sQO2azz8/export?format=pdf" download>VIEW RESUME</a></button>
+              </div>
               </div>
               <div className="ContactLink_wrapper">
                 <button className="Contact_button">CONTACT ME</button>
               </div>
-            </div>
-          </div>
+              </div>
         </div>
       </div>
     );
