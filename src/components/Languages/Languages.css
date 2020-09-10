@@ -1,40 +1,40 @@
 .Languages_title {
-    font-size: 60px;
-    display: flex;
-    font-family: 'Arvo';
-    height: 2em;
-    margin-left: 3%;
-}
-
-.Languages_list {
-    list-style: none;
-    font-size: 32px;
-    height: 6em;            
-    max-width: 100vw;
-    display: flex;}
-
-
-
-.Languages_item {
-    display: flex;
+  font-size: 60px;
+  display: flex;
+  font-family: "Arvo";
+  /* height: em; */
+  margin-left: 10%;
 }
 .slashes {
-    list-style: none;
     color: var(--gold);
-    display: flex;
+    margin: auto 5px auto 5px;
 }
-.outer_wrapper {
-    box-sizing: border-box;
-    max-width:100vw;
-    display: flex;
+.Language_list {
+  max-width: 80%;
+  display: flex;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Open Sans';
+  margin-right: 10%;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
 
+.outer_wrapper {
+  box-sizing: border-box;
+  display: flex;
+  max-width: 100vw;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: auto 10% 7% 10%;
 }
 .Languages {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid blue;
-    color: white;
-    box-sizing: border-box;
-    grid-row: 3;
-    /* max-height: 500px; */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  color: white;
+  box-sizing: border-box;
+  grid-row: 3;
+  /* max-height: 500px; */
 }

@@ -28,7 +28,9 @@
   text-align: center;
   padding: 2em;
   width: 25em;
+  /* width: 25%; */
   height: 20em;
+  /* height: 22%; */
 
 }
 .project_wrapper {
@@ -37,6 +39,7 @@
   box-sizing: border-box;
   justify-content: space-evenly;
   margin-bottom: auto;
+  /* margin-left: %; */
 }
 .project_thumbnails {
   display: flex;
@@ -55,7 +58,7 @@
   font-size: 60px;
   max-width: 98%;
   /* height:2em; */
-  margin-left: 3%;
+  margin-left: 10%;
 }
 
 .Portfolio {

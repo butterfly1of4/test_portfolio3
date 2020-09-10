@@ -8,39 +8,51 @@ const Languages = (props) => {
   return (
     <div className="Languages">
       <span>
-      <h1 className="Languages_title">Languages<div className="Period">.</div></h1>
+        <h1 className="Languages_title">
+          Languages<div className="Period">.</div>
+        </h1>
       </span>
-     
-        <div className="outer_wrapper">
-        <ul className="Languages_list">
-          <li className="Languages_item">Django
-          <div className="slashes">//</div></li>
-          <li className="Languages_item">Python</li>
+
+      <div className="outer_wrapper">
+        <div className="Language_list">
+
+          <div className="Language_item">Django</div>
+          <div className="slashes">  //</div>
+          <div className="Language_item">Python </div>
           <div className="slashes">//</div>
-          <li className="Languages_item">Node</li>
+
+          <div className="Language_item">Node </div>
           <div className="slashes">//</div>
-          <li className="Languages_item">Express</li>
+
+          <div className="Language_item">Express </div>
           <div className="slashes">//</div>
-          <li className="Languages_item">Git</li>
+
+          <div className="Language_item">Git </div>
           <div className="slashes">//</div>
-          <li className="Languages_item"><span>Back End</span></li>
+
+          <div className="Language_item">MongoDB </div>
           <div className="slashes">//</div>
-          <li className="Languages_item">MongoDB</li>
+
+          <div className="Language_item">SQL </div>
           <div className="slashes">//</div>
-          <li className="Languages_item">SQL</li>
+
+          <div className="Language_item">Front End </div>
           <div className="slashes">//</div>
-          <span>
-          <li className="Languages_item">Front End</li> </span><div className="slashes">//</div>
-          <li className="Languages_item">CSS</li>
+
+          <div className="Language_item">CSS </div>
           <div className="slashes">//</div>
-          <li className="Languages_item">HTML</li>
+
+          <div className="Language_item">HTML </div>
           <div className="slashes">//</div>
-          <li className="Languages_item">Javascript</li>
-        </ul>
+
+          <div className="Language_item">Javascript </div>
+
         </div>
-      
+      </div>
     </div>
   );
 };
 
 export default Languages;
+
+//Django  //  Python  //  Node  //  Express  //  Git  //  Django  //  MongoDB  //  SQL  //  Front End  //  CSS  //  HTML  //   Javascript
