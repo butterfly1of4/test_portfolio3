@@ -15,20 +15,23 @@
   background-color: var(--gold);
   background-position: center;
   background-repeat: no-repeat;
-  height: 25%;
-  width: 33%;
+  min-width: 20vw;
+
 }
 .thumbnail_pic2 {
   background-image: url("../../assets/Saturn.png");
   background-color: var(--gold);
   background-position: center;
   background-repeat: no-repeat;
+  min-width: 20vw;
+
 }
 .thumbnail_pic3 {
   background-image: url("../../assets/FilmReel.png");
   background-color: var(--gold);
   background-position: center;
   background-repeat: no-repeat;
+  min-width: 20vw;
 }
 
 .thumbnail_item {
@@ -37,7 +40,7 @@
   flex-direction: column;
   text-align: center;
   padding: 2em;
-  
+  width: 25em;
 }
 .project_wrapper {
   display: flex;
@@ -52,7 +55,7 @@
   justify-content: space-evenly;
   width: 100vw;
   margin-bottom: 0;
-   
+  min-width: 20vw; 
 }
 .Portfolio_title {
   display: flex;
