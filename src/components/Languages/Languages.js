@@ -10,11 +10,11 @@ const Languages = (props) => {
       <span>
       <h1 className="Languages_title">Languages<div className="Period">.</div></h1>
       </span>
-      <p className="Languages_wrapper">
+     
         <div className="outer_wrapper">
         <ul className="Languages_list">
-          <li className="Languages_item">Django</li>
-          <div className="slashes">//</div>
+          <li className="Languages_item">Django
+          <div className="slashes">//</div></li>
           <li className="Languages_item">Python</li>
           <div className="slashes">//</div>
           <li className="Languages_item">Node</li>
@@ -38,7 +38,7 @@ const Languages = (props) => {
           <li className="Languages_item">Javascript</li>
         </ul>
         </div>
-      </p>
+      
     </div>
   );
 };

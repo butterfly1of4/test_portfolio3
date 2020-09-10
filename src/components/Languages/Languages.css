@@ -9,13 +9,12 @@
 .Languages_list {
     list-style: none;
     font-size: 32px;
-    height: 100px;
-    display: flex;
-}
-.Languages_wrapper {
-    margin: 3.7% 4.3% 3.7%;
-    max-width: 60%;
-}
+    height: 6em;            
+    max-width: 100vw;
+    display: flex;}
+
+
+
 .Languages_item {
     display: flex;
 }
@@ -26,6 +25,8 @@
 }
 .outer_wrapper {
     box-sizing: border-box;
+    max-width:100vw;
+    display: flex;
 
 }
 .Languages {
@@ -35,5 +36,5 @@
     color: white;
     box-sizing: border-box;
     grid-row: 3;
-    max-height: 500px;
+    /* max-height: 500px; */
 }
