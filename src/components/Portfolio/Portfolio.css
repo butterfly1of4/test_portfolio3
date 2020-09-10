@@ -10,26 +10,49 @@
   text-align: center;
   
 }
+.thumbnail_pic1 {
+  background-image: url("../../assets/BlackTank.png");
+  background-color: var(--gold);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25%;
+  width: 33%;
+}
+.thumbnail_pic2 {
+  background-image: url("../../assets/Saturn.png");
+  background-color: var(--gold);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.thumbnail_pic3 {
+  background-image: url("../../assets/FilmReel.png");
+  background-color: var(--gold);
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .thumbnail_item {
   list-style: none;
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 2em;
+  
 }
 .project_wrapper {
   display: flex;
-  width: 100vw;
+  /* height: 20em; */
   box-sizing: border-box;
+  justify-content: space-evenly;
 }
 .project_thumbnails {
   display: flex;
   background-color: red;
   border-radius: 4px;
-  /* max-height: 300px; */
-  justify-items:space-evenly;
-  margin-bottom: auto 10% 10px 10%;
-  max-width: 50%;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin-bottom: 0;
+   
 }
 .Portfolio_title {
   display: flex;
@@ -37,7 +60,7 @@
   font-size: 60px;
   max-width: 98%;
   height:2em;
-
+  margin-left: 3%;
 }
 
 .Portfolio {

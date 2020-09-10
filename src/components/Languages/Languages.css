@@ -3,6 +3,7 @@
     display: flex;
     font-family: 'Arvo';
     height: 2em;
+    margin-left: 3%;
 }
 
 .Languages_list {
@@ -32,4 +33,5 @@
     color: white;
     box-sizing: border-box;
     grid-row: 3;
+    max-height: 500px;
 }

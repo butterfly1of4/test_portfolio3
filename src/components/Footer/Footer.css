@@ -18,6 +18,8 @@
 .Footer_icons {
     display: flex;
     margin: 1% auto auto auto;
+    width: 30%;
+    justify-content: space-between;
 }
 
 .Footer {
