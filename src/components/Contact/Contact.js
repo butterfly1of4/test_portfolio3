@@ -9,7 +9,6 @@ class Contact extends Component {
     super();
     this.state = {};
   }
-
   render() {
     return (
       <div className="Contact">
@@ -42,7 +41,10 @@ class Contact extends Component {
               </div>
             </div>
             <div className="ContactLink_wrapper">
-              <button className="Contact_button">CONTACT ME</button>
+              
+              <button className="Contact_button">
+                <a className="Contact_link" style={{ textDecoration: "none" }}href="mailto:jhouck29@gmail.com">
+                CONTACT ME</a></button>
             </div>
           </div>
         </div>

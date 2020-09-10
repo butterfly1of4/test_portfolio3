@@ -39,9 +39,14 @@
   align-content: center;
 }
 
-a {
+.Resume_link {
   color: var(--gold);
   font-style: none;
+}
+
+.Contact_link {
+  color: black;
+  background-color: var(--gold);
 }
 
 .yellow_box {
