@@ -69,7 +69,7 @@
   grid-column: auto;
   background-color: black;
   color: white;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   max-width: 98%; 
   /* height: 100%; */
   padding-bottom:5%;
