@@ -64,6 +64,6 @@
   display: flex;
   grid-row: 5;
   box-sizing: border-box;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   color: white;
 }

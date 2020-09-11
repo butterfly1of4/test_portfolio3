@@ -32,7 +32,7 @@
 .Languages {
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   color: white;
   box-sizing: border-box;
   grid-row: 3;
