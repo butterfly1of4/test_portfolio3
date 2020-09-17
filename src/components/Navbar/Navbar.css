@@ -4,14 +4,14 @@
   background: rgba(0,0,0,0);
   width: 60px;
   height: 60px;
-  margin: 1% auto 2.5% 7%;
+  margin: 1% auto 2.5% 10%;
 
 
 }
 .Nav_item_wrapper {
 
 white-space: nowrap;
-  margin: 3.7% 4.3% 3.7% auto;
+  margin: 3.7% 5.3% 3.7% auto;
   background: rgba(0, 0, 0, 0);
 
 }
@@ -20,6 +20,8 @@ white-space: nowrap;
   list-style: none;
   z-index:4;
   font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
   font-family: 'Open Sans';
   padding: 2em;
   opacity: 1;
