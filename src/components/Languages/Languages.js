@@ -12,47 +12,20 @@ const Languages = (props) => {
           Skills<div className="Period">.</div>
         </h1>
       </span>
-
-      <div className="outer_wrapper">
-        <div className="Language_list">
-
-          <div className="Language_item">Django</div>
-          <div className="slashes">  //</div>
-          <div className="Language_item">Python </div>
-          <div className="slashes">//</div>
-
-          <div className="Language_item">Node </div>
-          <div className="slashes">//</div>
-
-          <div className="Language_item">Express </div>
-          <div className="slashes">//</div>
-
-          <div className="Language_item">Git </div>
-          <div className="slashes">//</div>
-
-          <div className="Language_item">MongoDB </div>
-          <div className="slashes">//</div>
-
-          <div className="Language_item">SQL </div>
-          <div className="slashes">//</div>
-
-          <div className="Language_item">Front End </div>
-          <div className="slashes">//</div>
-
-          <div className="Language_item">CSS </div>
-          <div className="slashes">//</div>
-
-          <div className="Language_item">HTML </div>
-          <div className="slashes">//</div>
-
-          <div className="Language_item">Javascript </div>
-
-        </div>
-      </div>
+      <p className="skills_wrapper">
+        <ul className="skills_list">
+          <li className="skills_item"><div className="item_title">Languages: 
+          </div>Javascript <div className="slashes">// </div>Python <div className="slashes">// </div>Node.js <div className="slashes">// </div> HTML <div className="slashes">// </div> CSS <div className="slashes">// </div> Markdown <div className="slashes">// </div>SQL </li>
+          <li className="skills_item"><div className="item_title">Frameworks: </div>React <div className="slashes">// </div> Django <div className="slashes">// </div>Express</li>
+          <li className="skills_item"><div className="item_title">Databases: </div> MongoDB <div className="slashes">// </div> PostgreSQL <div className="slashes">// </div>PeeWee <div className="slashes">// </div>Mongoose</li>
+          <li className="skills_item"><div className="item_title">Testing: </div>Jest <div className="slashes">// </div>Enzyme </li>
+          <li className="skills_item"><div className="item_title">Tools: </div>Storybook <div className="slashes">// </div>Git <div className="slashes">// </div>Kanban</li>
+        </ul>
+      </p>
     </div>
   );
 };
 
+
 export default Languages;
 
-//Django  //  Python  //  Node  //  Express  //  Git  //  Django  //  MongoDB  //  SQL  //  Front End  //  CSS  //  HTML  //   Javascript
