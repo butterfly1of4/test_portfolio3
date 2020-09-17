@@ -13,14 +13,14 @@ function App() {
   return (
     <div className="App_container">
       <Navbar />
-      <Route path="/" exact={true}>
+      <Route path="/test_portfolio3" exact={true}>
         <LandingPage />
         <Portfolio />
         <Languages />
         <About />
         <Contact /><Footer />
       </Route>
-      <Route path="/Portfolio" exact={true}>
+      {/* <Route path="/Portfolio" exact={true}>
         <Portfolio /></Route>
       <Route path="/Languages" exact={true}>
         <Languages />
@@ -33,7 +33,7 @@ function App() {
       </Route>
       <Route path="/Footer" exact={true}>
         <Footer />
-      </Route>
+      </Route> */}
       </div>
   )
 }

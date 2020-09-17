@@ -1,3 +1,9 @@
+Languages: JavaScript, Python, Node.js, HTML, CSS, Markdown     Templating: Nunjucks Frameworks: React, Express, Django                 Testing: Jest, Enzyme Databases: MongoDB, Mongoose, PostgreSQL, PeeWee         Tools: Storybook, Git, Kanban 
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

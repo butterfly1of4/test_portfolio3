@@ -23,8 +23,8 @@ const LandingPage = (props) => {
       <p className="About_blurb">
         I’m a Full stack Developer, web developer + recent grad of General
         Assembly in Washington. DC. ...Looking for full time or contract
-        opportuines in the DMV or Remote for<br /> If your a business seeking a web
-        presence or an employwer looking to hire, contact me here. rich
+        opportuines in the DMV or Remotely <br /> If you're a business seeking a web
+        presence or an employer looking to hire, contact me here. rich
         interactive web apps.{" "}
       </p>
       <img src={arrow_down} className="arrow_down" alt="arrow_down" /> 
