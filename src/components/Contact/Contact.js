@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Contact.css";
 import "../../index.css";
+import CurrentResume from "../../CurrentResume.pdf"
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 // React Class Component
@@ -32,8 +33,7 @@ class Contact extends Component {
                   <a
                     className="Resume_link"
                     style={{ textDecoration: "none" }}
-                    href="https://docs.google.com/document/d/1Y76f5XKECmG6bzd_AMMGS6MhCS7aG_f44R0sQO2azz8/export?format=pdf"
-                    download
+                    href={CurrentResume} target="_blank"
                   >
                     VIEW RESUME
                   </a>
@@ -43,7 +43,7 @@ class Contact extends Component {
             <div className="ContactLink_wrapper">
               
               <button className="Contact_button">
-                <a className="Contact_link" style={{ textDecoration: "none" }}href="mailto:jhouck29@gmail.com">
+                <a className="Contact_link" style={{ textDecoration: "none" }}href="mailto:jhouck29@gmail.com" target="_blank">
                 CONTACT ME</a></button>
             </div>
           </div>
