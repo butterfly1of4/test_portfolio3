@@ -11,7 +11,7 @@ import { Router, Link, Switch } from "react-router-dom";
 class Portfolio extends Component {
   render() {
     return (
-      <div className="Portfolio">
+      <div className="Portfolio" id="Portfolio">
         <h1 className="Portfolio_title">
           Portfolio<div className="Period">.</div>
         </h1>

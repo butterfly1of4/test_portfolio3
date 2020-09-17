@@ -6,10 +6,10 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 // Function based React Component
 const Languages = (props) => {
   return (
-    <div className="Languages">
+    <div className="Languages" id="Skills">
       <span>
         <h1 className="Languages_title">
-          Languages<div className="Period">.</div>
+          Skills<div className="Period">.</div>
         </h1>
       </span>
 

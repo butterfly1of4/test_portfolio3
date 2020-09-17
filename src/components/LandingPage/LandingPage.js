@@ -9,9 +9,9 @@ const LandingPage = (props) => {
   // let classList = `LandingPage`;
 
   return (
-    <div className="LandingPage">
+    <div className="LandingPage" id="Landing_Page">
       <div className="background"
->     <div className='Hi_container'>
+>     <div className='Hi_container' >
     <span><h1 className="Hi">Jenn Houck<div className="Period">.</div></h1></span>
         {/* <span>
       <h1 className="Hi">Hi<div className="Period">.</div> I'm Jenn<div className="Period">.</div> </h1>

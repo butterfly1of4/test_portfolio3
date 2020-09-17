@@ -24,35 +24,35 @@ class Navbar extends Component {
               <ul className="Nav_item_wrapper">
                 <li className="Nav_item">
                     {/* <Scrollchor to="/" className="Nav_link">HOME</Scrollchor> */}
-                  <Link className="Nav_link" to="/"> 
+                  <a className="Nav_link" href="#Landing_Page"> 
                     HOME
-                  </Link>
+                  </a>
                 </li>
                 <li className="Nav_item">
                     {/* <Scrollchor to="/Portfolio" className="Nav_link">PORTFOLIO</Scrollchor> */}
-                  <Link className="Nav_link" to="/Portfolio/"> 
+                  <a className="Nav_link" href="#Portfolio"> 
                     PORTFOLIO
-                   </Link>
+                   </a>
                 </li>
                 <li className="Nav_item">
                 {/* <Scrollchor to="/Languages" className="Nav_link">LANGUAGES</Scrollchor> */}
 
-                  <Link className="Nav_link" to="/Languages"> 
-                    LANGUAGES
-                  </Link>
+                  <a className="Nav_link" href="#Skills"> 
+                    SKILLS
+                  </a>
                 </li>
                 <li className="Nav_item">
                   {/* <Scrollchor to="/About" className="Nav_link">ABOUT</Scrollchor> */}
 
-                  <Link className="Nav_link" to="/About"> 
+                  <a className="Nav_link" href="#About"> 
                     ABOUT
-                  </Link>
+                  </a>
                 </li>{" "}
                 <li className="Nav_item">
                   {/* <Scrollchor to="/Contact" className="Nav_link">CONTACT</Scrollchor> */}
-                  <Link className="Nav_link" to="/Contact"> 
+                  <a className="Nav_link" href="#Contact"> 
                     CONTACT
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

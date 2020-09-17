@@ -14,7 +14,7 @@ class Contact extends Component {
       <div className="Contact">
         <div className="yellow_box">
           <div className="text_wrapper">
-            <h1 className="Contact_title">
+            <h1 className="Contact_title" id="Contact">
               Contact<div className="Period">.</div>
             </h1>
             <div className="Content_wrapper">
