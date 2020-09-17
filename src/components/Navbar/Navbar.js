@@ -14,7 +14,6 @@ class Navbar extends Component {
   }
   render() {
     return (
-      // <div className="Page">
       <StickyHeader
         header = {
         <nav className="NavBar">
@@ -23,34 +22,32 @@ class Navbar extends Component {
             <div className="Header_root">
               <ul className="Nav_item_wrapper">
                 <li className="Nav_item">
-                    {/* <Scrollchor to="/" className="Nav_link">HOME</Scrollchor> */}
-                  <a className="Nav_link" href="#Landing_Page"> 
+                    
+                  <a className="Nav_link" style={{textDecoration:"none"}} href="#Landing_Page"> 
                     HOME
                   </a>
                 </li>
                 <li className="Nav_item">
-                    {/* <Scrollchor to="/Portfolio" className="Nav_link">PORTFOLIO</Scrollchor> */}
-                  <a className="Nav_link" href="#Portfolio"> 
+                 
+                  <a className="Nav_link" style={{textDecoration:"none"}} href="#Portfolio"> 
                     PORTFOLIO
                    </a>
                 </li>
                 <li className="Nav_item">
-                {/* <Scrollchor to="/Languages" className="Nav_link">LANGUAGES</Scrollchor> */}
-
-                  <a className="Nav_link" href="#Skills"> 
+             
+                  <a className="Nav_link" style={{textDecoration:"none"}} href="#Skills"> 
                     SKILLS
                   </a>
                 </li>
                 <li className="Nav_item">
-                  {/* <Scrollchor to="/About" className="Nav_link">ABOUT</Scrollchor> */}
-
-                  <a className="Nav_link" href="#About"> 
+              
+                  <a className="Nav_link" style={{textDecoration:"none"}} href="#About"> 
                     ABOUT
                   </a>
                 </li>{" "}
                 <li className="Nav_item">
-                  {/* <Scrollchor to="/Contact" className="Nav_link">CONTACT</Scrollchor> */}
-                  <a className="Nav_link" href="#Contact"> 
+     
+                  <a className="Nav_link" style={{textDecoration:"none"}} href="#Contact"> 
                     CONTACT
                   </a>
                 </li>
@@ -59,7 +56,6 @@ class Navbar extends Component {
           </div>
         </nav>
         } />
-        // </div>
     );
   }
 }
