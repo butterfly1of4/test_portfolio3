@@ -26,7 +26,7 @@ class Contact extends Component {
               </p>
             </div>
           </div>
-          <div>
+          <div className="buttons">
             <div className="Button_resume_button">
               <div className="ButtonLink_wrapper">
                 <button className="Resume_button">

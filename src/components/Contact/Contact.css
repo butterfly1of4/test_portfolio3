@@ -2,19 +2,21 @@
   font-size: 60px;
   display: flex;
   font-family: "Arvo";
-  margin: 5% 3%;
+  margin: 7% auto auto 15%;
+  /* margin: 39px 3% auto 73px; */
+
 }
 
 .Contact_text {
   font-size: 24px;
-  margin: auto auto 5% 5%;
+  margin: 20px auto 40px 15%;
 }
 .Resume_button {
   height: 2.6em;
   width: 13.7em;
   background-color: black;
   font-size: 16px;
-  margin: 4em 4.5em 1.5em auto;
+  /* margin-top:7%; */
   font-family: "Open Sans", serif;
   font-weight: bold;
   border-radius: 5px;
@@ -27,11 +29,13 @@
   height: 2.6em;
   width: 13.7em;
   color: black;
-  margin: auto 4.5em 4em auto;
+  margin-top: 12%;
+  /* margin-bottom: 7%; */
   font-size: 16px;
   font-family: "Open Sans", serif;
   font-weight: bold;
   border-radius: 5px;
+  border: 1px var(--gold) solid;
 }
 
 .Content_wrapper {
@@ -49,21 +53,23 @@
   background-color: var(--gold);
 }
 
+.buttons {
+  margin: 7% 9% 7% auto;
+}
+
 .yellow_box {
-  width: 79%;
+  width: 80%;
   min-height: 14.7em;
   display: flex;
   border: 4px solid #b2ab11;
   box-sizing: border-box;
   margin: 5% 10% 5% 10%;
   display: flex;
-  /* flex-flow: unset; */
   justify-content: space-between;
 }
 .Contact {
   display: flex;
   grid-row: 5;
   box-sizing: border-box;
-  /* border: 1px solid green; */
   color: white;
 }
