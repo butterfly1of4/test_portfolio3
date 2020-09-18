@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import "./Portfolio.css";
 import "../../index.css";
-import BlackTank from "../../assets/BlackTank.png";
-import Saturn from "../../assets/resizeSaturn.png";
-import FilmReel from "../../assets/FilmReel.png";
-
+import Tank from "../../assets/Tank_Icon.png"
+import Planet from "../../assets/Planet_Icon.png"
+import Film from "../../assets/Film_Icon.png"
 import { Router, Link, Switch } from "react-router-dom";
 
 // React Class Component
@@ -20,7 +19,7 @@ class Portfolio extends Component {
             <li className="thumbnail_item">
               <div className="thumbnail_pic">
                 {" "}
-                <img className="thumbnail" src={BlackTank} />
+                <img className="thumbnail" src={Tank} />
               </div>
               <p className="portfolio_links">
                 {" "}
@@ -35,7 +34,7 @@ class Portfolio extends Component {
             <li className="thumbnail_item">
               <div className="thumbnail_pic">
                 {" "}
-                <img className="thumbnail" src={Saturn} />
+                <img className="thumbnail" src={Planet} />
               </div>
               <p className="portfolio_links">
                 {" "}
@@ -58,7 +57,7 @@ class Portfolio extends Component {
             </li>
             <li className="thumbnail_item">
               <div className="thumbnail_pic">
-                <img className="thumbnail" src={FilmReel} />
+                <img className="thumbnail" src={Film} />
               </div>
               <p className="portfolio_links">
                 {" "}
@@ -89,9 +88,16 @@ class Portfolio extends Component {
             </li>
           </ul>
         </div>
+        <p className="additionalWork">
+          <h5 className="additionalTitle">Additional Work </h5>
+          <div className="additionalItems">Responsive Webpage <div className="divider">|</div>Project #2 <div className="divider">|</div>Project #3</div>
+        </p>
       </div>
     );
   }
 }
 
 export default Portfolio;
+
+
+// https://project8-backend.herokuapp.com/expire & https://project8-backend.herokuapp.com/release
