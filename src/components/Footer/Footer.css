@@ -1,32 +1,32 @@
-
-
-.Divider{
-    color: var(--gold)
+.Divider {
+  color: var(--gold);
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .Copywrite {
-    color: white;
-    margin: 1% auto 1% auto;
-    display: flex;    
+  color: white;
+  margin: 1% auto 1% auto;
+  display: flex;
+  letter-spacing: 1px;
 }
 
 .JHLogo {
-    margin: 1% auto auto auto;
-
+  margin: 1% auto auto auto;
 }
 
 .Footer_icons {
-    display: flex;
-    margin: 1% auto auto auto;
-    width: 30%;
-    justify-content: space-between;
+  display: flex;
+  margin: 1% auto auto auto;
+  width: 30%;
+  justify-content: space-between;
 }
 
 .Footer {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    /* border: 1px solid orange; */
-    justify-items: center;
-    margin-bottom: 6%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* border: 1px solid orange; */
+  justify-items: center;
+  margin-bottom: 6%;
 }

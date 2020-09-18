@@ -21,17 +21,17 @@ class Footer extends Component {
         return (
             <div className="Footer">
                 <div className="Footer_icons">
-               <a href="https://github.com/butterfly1of4">
+               <a href="https://github.com/butterfly1of4" target="_blank">
                    {" "}
                 <div className="Github">
                 <img src={Github}  alt="Github"/>
                 </div></a>
-                <a href="">
+                <a href="mailto:jhouck29@gmail.com" target="_blank">
                     <div className="Footer_Email">
                     <img src={Email} alt="Email"/>
                     </div>
                     </a>
-                <a href="https://www.linkedin.com/in/jennifer-houck/">
+                <a href="https://www.linkedin.com/in/jennifer-houck/" target="_blank">
                     <div className="LinkedIN" >
                     <img src={LinkedIN} alt="LinkedIN"/>
                     </div></a>
