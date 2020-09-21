@@ -1,35 +1,108 @@
 
+.divider {
+  color: var(--gold);
+  padding:0 10px;
+
+}
+
 .additionalItems {
   display: flex;
   justify-content: center;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Open Sans', serif;
+  line-height: 50px;
+
 }
 .additionalWork {
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 50px;
+  font-family: 'Open Sans', serif;
+
 }
 
+.additionalTitle {
+  display: flex;
+  justify-content: center;
+}
 .icon {
   display: flex;
   background-color: var(--gold);
   align-self: center;
-  padding-top: 25%;
+  /* padding-top: 25%; */
 }
 .thumbnail {
   display: flex;
   background-color: var(--gold);
-  align-content:inherit ;
+  align-self:center;
   justify-content: center;
   width: 100%;
-  
+  padding-bottom: 15%;
 }
+.Nterflix_project {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-flow: column;
+  padding-left: 0;
+margin-top: 15%;
+padding-bottom: 10%;
+
+  }
+.Nasa_project {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  padding-left: 0;
+margin-top: 25%;
+
+  }
+
+.War_project {
+width: 100%;
+display: flex;
+flex-flow: column;
+padding-left: 0;
+margin-top: 25%;
+}
+
+.ViewCode {
+  color: var(--gold);
+  font-weight: 700;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.deployed_link {
+  color: white;
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  line-height: 1;
+  height: fit-content;
+  text-align: center;
+  
+} 
 
 .project_item {
   width: 22.5em;
   height: 14.5em;
   background-color: var(--gold);
   margin-right: 2%;
-  
+  box-sizing: border-box;
+  align-content: flex-start;
 }
 .project_list {
   display: flex;
@@ -37,6 +110,10 @@
   width: 97%;
   padding: 2% 0;
 
+}
+.pic_text_list {
+  display: flex;
+  flex-flow: column;
 }
 .project_wrapper {
   display: flex;

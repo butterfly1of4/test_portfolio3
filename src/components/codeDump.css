@@ -1,49 +1,57 @@
 
-.thumbnail {
-  max-width: 25vw;
-  height: auto;
-  background-color: var(--gold);
-}
-/* .ViewCode {
-  color: var(--gold);
-  font-size: 16px;
-  text-align: center;
-} */
-.thumbnail_pic {
-    /* box-sizing: border-box; */
-    /* display: flex; */
-    /* background-color: var(--gold); */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* margin-right: 2em; */
-    /* width: 22.5em; */
-    /* height: 14.5em; */
-    /* height: 50%; */
-  }
-  /* .profile_link {
-    /* text-align: center; */
-    /* margin-top: 5px; */
-   */
-  
-  .thumbnail_item {
-    /* list-style: none;  */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* text-align: center; */
-    /* padding: 2em; */
-    /* margin:0; */
-    /* width: 33%; */
-    /* background-color: lightblue; */
-  
-  }
-  .project_thumbnails {
-    /* display: flex; */
-    /* padding: 0; */
-    /* list-style: none;  */
-  
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    /* width:100%; */
-    /* background-color: lightpink; */
-    /* margin: 0; */
-  }
+ <ul className="linkNames">
+ <li className="links">
+   {" "}
+   <a
+   className="ViewCode"
+     style={{ textDecoration: "none" }}
+     href="https://github.com/butterfly1of4/Game-of-War"
+   >
+     GAME OF WAR
+   </a>
+ </li>
+ <li className="links">
+   {" "}
+   <a
+     className="ViewCode"
+     style={{ textDecoration: "none" }}
+     href="https://butterfly1of4.github.io/ui-pattern/"
+   >
+     NASA PLANETS PAGE
+   </a>
+   <br />
+   <a
+     className="ViewCode"
+     style={{ textDecoration: "none" }}
+     href="https://github.com/butterfly1of4/ui-pattern"
+   >
+     VIEW CODE
+   </a>
+ </li>
+ <li className="links">
+   {" "}
+   <a
+     className="ViewCode"
+     style={{ textDecoration: "none" }}
+     href="https://butterfly1of4.github.io/project8-frontend"
+   >
+     NTERFLIX
+   </a>
+   <br />
+   <a
+     className="ViewCode"
+     style={{ textDecoration: "none" }}
+     href="https://github.com/butterfly1of4/project8-frontend"
+   >
+     VIEW CODE FOR FRONTEND
+   </a>
+   <br />
+   <a
+     className="ViewCode"
+     style={{ textDecoration: "none" }}
+     href="https://github.com/butterfly1of4/project8-backend"
+   >
+     VIEW CODE FOR BACKEND
+   </a>
+ </li>
+</ul>

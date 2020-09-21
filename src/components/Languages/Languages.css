@@ -2,7 +2,6 @@
   font-size: 60px;
   display: flex;
   font-family: "Arvo";
-  /* height: em; */
   margin-left: 10%;
 }
 .slashes {
@@ -29,7 +28,7 @@
   color: white;
   box-sizing: border-box;
   grid-row: 3;
-  /* max-height: 500px; */
+
 }
 .skills_item {
   display: flex;
