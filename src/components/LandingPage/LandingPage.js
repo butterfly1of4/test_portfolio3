@@ -12,7 +12,7 @@ const LandingPage = (props) => {
     <div className="LandingPage" id="Landing_Page">
       <div className="background"
 >     <div className='Hi_container' >
-    <span><h1 className="Hi">Jenn Houck<div className="Period">.</div></h1></span>
+    <h1 className="Hi">Jenn Houck<div className="Period">.</div></h1>
         
       <h4 className="Developer_violinist">
         Developer by day. Violinist by night.
