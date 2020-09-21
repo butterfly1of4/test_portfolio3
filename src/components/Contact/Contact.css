@@ -3,58 +3,73 @@
   display: flex;
   font-family: "Arvo";
   margin: 7% auto auto 15%;
-  /* margin: 39px 3% auto 73px; */
-
 }
 
 .Contact_text {
   font-size: 24px;
-  margin: 20px auto 40px 15%;
+  margin: 1em 1em 40px 15%;
+  display:flex;
+  flex-direction: column;
+}
+.Contact_button {
+  padding: .5em 3.3em;
+  background-color: var(--gold);
+  font-size: 16px;
+  padding: 10px;
+  width: 13.5em;
+  height: 2.6em;
+  border-radius: 5px;
+  border: 2px solid #b2ab11;
+  font-family: "Open Sans", serif;
+  font-weight: 800;
+  color: black;
+  margin-top: 1em;
+  margin-bottom: 0;
+  align-self: flex-end;
+  cursor: pointer;
+
 }
 .Resume_button {
-  height: 2.6em;
-  width: 13.7em;
+  padding: .5em 3.3em;
   background-color: black;
   font-size: 16px;
-  /* margin-top:7%; */
-  font-family: "Open Sans", serif;
-  font-weight: bold;
-  border-radius: 5px;
-  color: var(--gold);
-  border: 2px solid #b2ab11;
-}
-
-.Contact_button {
-  background-color: var(--gold);
+  padding: 10px;
+  width: 13.5em;
   height: 2.6em;
-  width: 13.7em;
-  color: black;
-  margin-top: 12%;
-  /* margin-bottom: 7%; */
-  font-size: 16px;
-  font-family: "Open Sans", serif;
-  font-weight: bold;
   border-radius: 5px;
-  border: 1px var(--gold) solid;
+  border: 2px solid #b2ab11;
+  font-family: "Open Sans", serif;
+  font-weight: 800;
+  color: var(--gold);
+  margin-bottom: 1em;
+  cursor: pointer;
+
 }
 
+.button {
+  margin: 7% 9% 7% auto;
+  padding-bottom:0;
+  background-color: transparent;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+}
+
+.bold_text {
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+}
+span {
+  display: flex;
+  flex-direction: row;
+}
 .Content_wrapper {
   display: flex;
+  flex-direction: row;
   align-content: center;
-}
-
-.Resume_link {
-  color: var(--gold);
-  font-style: none;
-}
-
-.Contact_link {
-  color: black;
-  background-color: var(--gold);
-}
-
-.buttons {
-  margin: 7% 9% 7% auto;
 }
 
 .yellow_box {
@@ -73,3 +88,6 @@
   box-sizing: border-box;
   color: white;
 }
+
+
+
