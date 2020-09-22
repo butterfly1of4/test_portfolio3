@@ -37,6 +37,7 @@
 }
 .nterflix_links {
   display: flex;
+  background-color: black;
   flex-direction: column;
   list-style: none;
   line-height: 1;
@@ -75,8 +76,6 @@
   display: flex;
   flex-flow: column;
   padding-left: 0;
-/* margin-top: 15%; */
-/* padding-bottom: 10%; */
 
   }
 .Nasa_project {
