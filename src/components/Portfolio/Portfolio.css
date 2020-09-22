@@ -33,15 +33,41 @@
   display: flex;
   background-color: var(--gold);
   align-self: center;
-  /* padding-top: 25%; */
+
 }
+.nterflix_links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  line-height: 1;
+  height: fit-content;
+  text-align: center;
+  margin-top: 9%;
+}
+.nterflix_thumbnail {
+  display: flex;
+  background-color: var(--gold);
+  align-self:center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 9%
+}
+.nterflix_thumbnail_wrapper {
+  height: 100%;
+  padding-top: 15%;
+  background-color: var(--gold);
+}
+
 .thumbnail {
   display: flex;
   background-color: var(--gold);
   align-self:center;
   justify-content: center;
   width: 100%;
+  height: 100%;
   padding-bottom: 15%;
+ 
 }
 .Nterflix_project {
   width: 100%;
@@ -49,8 +75,8 @@
   display: flex;
   flex-flow: column;
   padding-left: 0;
-margin-top: 15%;
-padding-bottom: 10%;
+/* margin-top: 15%; */
+/* padding-bottom: 10%; */
 
   }
 .Nasa_project {
@@ -58,7 +84,7 @@ padding-bottom: 10%;
   display: flex;
   flex-flow: column;
   padding-left: 0;
-margin-top: 25%;
+/* margin-top: 25%; */
 
   }
 
@@ -67,7 +93,7 @@ width: 100%;
 display: flex;
 flex-flow: column;
 padding-left: 0;
-margin-top: 25%;
+/* margin-top: 25%; */
 }
 
 .ViewCode {
@@ -95,6 +121,42 @@ margin-top: 25%;
   text-align: center;
   
 } 
+
+.war_screenshot {
+  width: 22.5em;
+  height: 14.5em;
+}
+.flip_card {
+  /* border: 1px solid #B2AB11; */
+   background-color: transparent;
+   perspective: 1000px;
+}
+.flip_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip_card:hover .flip_card_inner {
+  transform: rotateY(180deg);
+}
+.flip_card_front, .flip_card_back {
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 100%; */
+  backface-visibility: hidden;
+}
+.flip_card_back {
+  transform: rotateY(180deg);
+  background-color: transparent;
+}
+.thumbnail_wrapper {
+  height: 100%;
+  padding-top: 25%;
+  background-color: var(--gold);
+}
 
 .project_item {
   width: 22.5em;
@@ -140,7 +202,4 @@ margin-top: 25%;
   grid-column: auto;
   background-color: black;
   color: white;
-  /* max-width: 98%; */
-  /* height: 100%; */
-  /* padding-bottom: 5%; */
 }

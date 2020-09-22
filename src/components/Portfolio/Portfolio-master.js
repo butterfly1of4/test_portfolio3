@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import "./Portfolio.css";
 import "../../index.css";
 import Tank from "../../assets/Tank_Icon.png";
-import WarScreenshot from "../../assets/war_game.png";
+import WarScreenshot from "../../assets/war_game.png"
 import Planet from "../../assets/Planet_Icon.png";
-import NasaScreenshot from "../../assets/NASA_api.png";
+import NasaScreenshot from "../../assets/NASA_api.png"
 import Film from "../../assets/Film_Icon.png";
-import NterflixScreentshot from "../../assets/Nterflix.png";
+import NterflixScreentshot from "../../assets/Nterflix.png"
 import { Router, Link, Switch } from "react-router-dom";
 
 // React Class Component
@@ -20,25 +20,21 @@ class Portfolio extends Component {
         <div className="pic_text_list">
           <div className="project_wrapper">
             <ul className="project_list">
-              <li className="project_item flip_card">
+              <li className="project_item">
                 <ul className="War_project">
-                  <div className="thumbnail_wrapper flip_card_inner">
-                    <li className="thumbnail">
-                      {" "}
-                      <img className="icon flip_card_front" src={Tank} />
-                      {/* <img className="icon flip_card_back war_screenshot"src={WarScreenshot} /> */}
-                    </li>
-                  </div>
+                  <li className="thumbnail flip_card_">
+                    {" "}
+                    <img className="icon" src={Tank} />
+                  </li>
                   <li className="links">
                     {" "}
                     <a
-                      className="ViewCode deployed_link"
-                      target="_blank"
-                      style={{ textDecoration: "none" }}
-                      href="https://butterfly1of4.github.io/Game-of-War/"
-                    >
-                      GAME OF WAR
-                    </a>
+              className="ViewCode deployed_link" target="_blank"
+                style={{ textDecoration: "none" }}
+                href="https://butterfly1of4.github.io/Game-of-War/"
+              >
+                GAME OF WAR
+              </a>
                     <a
                       className="ViewCode"
                       target="_blank"
@@ -51,15 +47,13 @@ class Portfolio extends Component {
                 </ul>
               </li>
 
-              <li className="project_item flip_card">
+              <li className="project_item">
                 <ul className="Nasa_project">
-                  <div className="thumbnail_wrapper flip_card_inner">
-                    <li className="thumbnail">
-                      {" "}
-                      <img className="icon flip_card_front" src={Planet} />
-                      {/* <img className="icon flip_card_back war_screenshot"src={NasaScreenshot} /> */}
-                    </li>
-                  </div>
+                  <li className="thumbnail">
+                    {" "}
+                    <img className="icon" src={Planet} />
+                  </li>
+
                   <li className="links">
                     {" "}
                     <a
@@ -70,6 +64,7 @@ class Portfolio extends Component {
                     >
                       NASA PLANETS PAGE
                     </a>
+              
                     <a
                       className="ViewCode"
                       target="_blank"
@@ -81,15 +76,13 @@ class Portfolio extends Component {
                   </li>
                 </ul>
               </li>
-              <li className="project_item flip_card">
+              <li className="project_item">
                 <ul className="Nterflix_project">
-                  <div className= "nterflix_thumbnail_wrapper flip_card_inner">
-                  <li className="nterflix_thumbnail">
+                  <li className="thumbnail">
                     {" "}
-                    <img className="icon flip_card_front" src={Film} />{/* <img className="icon flip_card_back war_screenshot"src={NterflixScreenshot} /> */}
+                    <img className="icon" src={Film} />
                   </li>
-                  </div>
-                  <li className="nterflix_links">
+                  <li className="links">
                     {" "}
                     <a
                       className="ViewCode"
@@ -100,6 +93,7 @@ class Portfolio extends Component {
                     >
                       NTERFLIX
                     </a>
+                
                     <a
                       className="ViewCode"
                       target="_blank"
@@ -108,6 +102,7 @@ class Portfolio extends Component {
                     >
                       VIEW FRONTEND CODE
                     </a>
+                 
                     <a
                       className="ViewCode"
                       target="_blank"
@@ -123,13 +118,11 @@ class Portfolio extends Component {
           </div>
 
           <p className="additionalWork">
-            <h3 className="additionalTitle">
-              Additional Work<div className="Period">:</div>
-            </h3>
+            <h3 className="additionalTitle">Additional Work<div className="Period">:</div></h3>
             <div className="additionalItems">
-              Responsive Webpage <div className="divider">|</div>Project #2{" "}
-              <div className="divider">|</div>Project #3{" "}
-              <div className="divider">|</div>Project #4{" "}
+              Responsive Webpage{" "}<div className="divider">|</div>Project #2{" "}
+              <div className="divider">|</div>Project #3 {" "}
+              <div className="divider">|</div>Project #4 {" "}
             </div>
           </p>
         </div>
