@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import "./Portfolio.css";
 import "../../index.css";
 import Tank from "../../assets/Tank_Icon.png";
-import WarScreenshot from "../../assets/war_game.png";
+import WarScreenshot from "../../assets/war_game_screenshot_small.png";
 import Planet from "../../assets/Planet_Icon.png";
-import NasaScreenshot from "../../assets/NASA_api.png";
+import NasaScreenshot from "../../assets/nasa_screenshot_small.png";
 import Film from "../../assets/Film_Icon.png";
-import NterflixScreentshot from "../../assets/Nterflix.png";
+import Nterflix from "../../assets/Nterflix_screenshot_small.png";
 import { Router, Link, Switch } from "react-router-dom";
 
 // React Class Component

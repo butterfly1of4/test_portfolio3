@@ -2,7 +2,7 @@ import React from 'react';
 import "./About.css";
 import "../../index.css";
 import { BrowserRouter as Router, Link } from "react-router-dom";
-import Headshot from "../../assets/Me_mex.jpg"
+import Headshot from "../../assets/solo_playing4_small.png"
 
 // Function based React Component
 const About = (props) => {
