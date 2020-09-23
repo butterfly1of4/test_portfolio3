@@ -20,6 +20,7 @@
 .skills_wrapper {
   margin-left: 7%;
   margin-top: -1.5em;
+  margin: -1.5% 10% auto 7%
 }
 
 .Languages {
@@ -28,6 +29,8 @@
   color: white;
   box-sizing: border-box;
   grid-row: 3;
+  background-color: black;
+
 
 }
 .skills_item {

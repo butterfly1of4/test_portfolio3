@@ -1,10 +1,6 @@
-resume and contact buttons clickable
 
 selector for section
 
-space on bottom between houck and Copyright
-
-git/mail/linkedin open in different tab
 
 portfolio: same size, new images, correct colors  and additional work 
 
@@ -13,10 +9,6 @@ developer closer to Jenn Houck
 h4 - no 42px list
 fix arrow/pic relationship
 
-nav: Contact align to margins
-open sans 16px bold letterspacing: 2px;
-
-skills too spaced out-
 
 contact further from yellow box (73px)
 

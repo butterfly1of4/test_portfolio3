@@ -42,4 +42,5 @@
   box-sizing: border-box;
   justify-content: flex-start;
   max-width: 100vw;
+  background-color: black;
 }

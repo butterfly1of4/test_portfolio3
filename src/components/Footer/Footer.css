@@ -12,7 +12,8 @@
 }
 
 .JHLogo {
-  margin: 1% auto auto auto;
+  margin: 1% auto 6% auto;
+  background-color: black;
 }
 
 .Footer_icons {
@@ -26,7 +27,8 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  /* border: 1px solid orange; */
+  background-color: black;
   justify-items: center;
-  margin-bottom: 6%;
+
+  height: 100%;
 }

@@ -164,12 +164,15 @@ padding-left: 0;
   margin-right: 2%;
   box-sizing: border-box;
   align-content: flex-start;
+  background-color: black;
+
 }
 .project_list {
   display: flex;
   list-style: none;
   width: 97%;
   padding: 2% 0;
+  background-color: black;
 
 }
 .pic_text_list {
@@ -179,7 +182,7 @@ padding-left: 0;
 .project_wrapper {
   display: flex;
   box-sizing: border-box;
-  /* background-color: red; */
+  background-color: black;
   justify-content: space-evenly;
   margin: auto 10% auto 9%;
   max-width: 100vw;
@@ -191,6 +194,7 @@ padding-left: 0;
   font-size: 60px;
   max-width: 98%;
   margin-left: 10%;
+  background-color: black;
 }
 
 .Portfolio {

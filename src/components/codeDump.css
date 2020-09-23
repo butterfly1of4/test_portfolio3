@@ -1,57 +1,64 @@
 
- <ul className="linkNames">
- <li className="links">
-   {" "}
-   <a
-   className="ViewCode"
-     style={{ textDecoration: "none" }}
-     href="https://github.com/butterfly1of4/Game-of-War"
-   >
-     GAME OF WAR
-   </a>
- </li>
- <li className="links">
-   {" "}
-   <a
-     className="ViewCode"
-     style={{ textDecoration: "none" }}
-     href="https://butterfly1of4.github.io/ui-pattern/"
-   >
-     NASA PLANETS PAGE
-   </a>
-   <br />
-   <a
-     className="ViewCode"
-     style={{ textDecoration: "none" }}
-     href="https://github.com/butterfly1of4/ui-pattern"
-   >
-     VIEW CODE
-   </a>
- </li>
- <li className="links">
-   {" "}
-   <a
-     className="ViewCode"
-     style={{ textDecoration: "none" }}
-     href="https://butterfly1of4.github.io/project8-frontend"
-   >
-     NTERFLIX
-   </a>
-   <br />
-   <a
-     className="ViewCode"
-     style={{ textDecoration: "none" }}
-     href="https://github.com/butterfly1of4/project8-frontend"
-   >
-     VIEW CODE FOR FRONTEND
-   </a>
-   <br />
-   <a
-     className="ViewCode"
-     style={{ textDecoration: "none" }}
-     href="https://github.com/butterfly1of4/project8-backend"
-   >
-     VIEW CODE FOR BACKEND
-   </a>
- </li>
-</ul>
+.circleLogo {
+  background: rgba(0,0,0,0);
+  width: 60px;
+  height: 60px;
+  margin: 1% auto 2.5% 10%;
+
+}
+.Nav_item_wrapper {
+  background-color:transparent;
+  display: flex;
+  flex-flow: row;
+  /* white-space: nowrap; */
+  /* margin: 3.7% 30% 3.7% auto; */
+  margin-right: 15%;
+  background: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  justify-items: right;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+
+}
+.Nav_link {
+  color: var(--gold);
+  list-style: none;
+  background-color:transparent;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Open Sans';
+
+  /* padding: 50%; */
+
+}
+.Nav_item {
+  background-color:transparent;
+  /* display: flex;
+  flex-flow: row; */
+  padding-left: 7%;
+  max-height: 80px;
+  /* justify-self: flex-start; */
+}
+.Header_root {  
+  width: 50%;
+  height: 80px;
+  /* text-align: right; */
+  display: flex;
+  align-items: center;
+  background-color:transparent;
+  box-sizing: border-box;
+  /* justify-content: flex-start; */
+}
+.Header {
+  z-index: -1;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+  /* background: rgba(0, 0, 0, 0); */
+  height: 80px;
+  margin-top: 0;
+}
+

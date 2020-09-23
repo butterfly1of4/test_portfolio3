@@ -1,54 +1,45 @@
 
 .circleLogo {
-
   background: rgba(0,0,0,0);
   width: 60px;
   height: 60px;
-  margin: 1% auto 2.5% 10%;
+  margin: 3% auto 2.5% 10%;
 
 }
 .Nav_item_wrapper {
-  background-color:transparent;
+  display: flex;
+  flex-flow: row;
+  margin-right: 10%;
+  padding-left: 20%;
+  list-style: none;
 
-white-space: nowrap;
-  margin: 3.7% 5.3% 3.7% auto;
-  background: rgba(0, 0, 0, 0);
 
 }
 .Nav_link {
   color: var(--gold);
   list-style: none;
-  background-color:transparent;
-  z-index:4;
+  background-color:none;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 2px;
   font-family: 'Open Sans';
-  padding: 2em;
-  opacity: 1;
+
 }
 .Nav_item {
-  background-color:transparent;
-  opacity: 4;
-  display: inline-block;
+  margin-left: 10%;
+  margin-right: 0;
+  background-color:none;
+
 }
-.Header_root {
-  z-index: 3;
-  opacity: 1;
-  width: 80%;
-  text-align: right;
-  display: flex;
-  align-items: center;
-  background-color:transparent;
+.Header_root {  
+  width: 100%;
+
 }
 .Header {
-  z-index: -1;
   display: flex;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: transparent;
-  /* background: rgba(0, 0, 0, 0); */
+  flex-flow: row;
   height: 80px;
-  margin-top: 0;
-}
+  align-items: center;
+  background-color:rgba(0,0,0,0.4);
 
+}
