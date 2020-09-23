@@ -12,10 +12,14 @@ const LandingPage = (props) => {
     <div className="LandingPage" id="Landing_Page">
       <div className="background"
 >     <div className='Hi_container' >
-  <h1 className="Hi">Jenn <div className="smallHi">{" "}Houck<div className="Period">.</div></div></h1>
+  <h1 className="Hi">Jenn <div className="smallHi"> Houck<div className="Period">.</div></div></h1>
         
       <h4 className="Developer_violinist">
-  Developer by day. <div className="violinist"> {" "}</div>Violinist by night.
+        <div className="developer">
+  Developer by day<div className="Period">.</div> 
+    </div>
+  <div className="violinist"> {" "}</div>
+  <div className="developer">Violinist by night<div className="Period">.</div></div>
       </h4>
       <hr className="Landing_hr" />
       <p className="About_blurb">

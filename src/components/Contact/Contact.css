@@ -111,11 +111,12 @@ span {
     margin-top: 0;
   }
 } 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 374px){
   .yellow_box {
-    margin-top: 30px;
+    margin: 15% auto;
   }
   .Contact_title {
-    margin-left: 5%;
+    margin-left: 0;
+    font-size: 60px;
   }
 } 

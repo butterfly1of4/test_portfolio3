@@ -2,7 +2,9 @@
   background-color: rgba(0, 0, 0, 0);
   margin: 0;
 }
-
+.developer {
+  display: flex;
+}
 .Hi {
   font-family: "Arvo";
   display: flex;
@@ -13,11 +15,15 @@
   text-align: left;
   max-width: 98%;
 }
-
+.smallHi {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+}
 .Period {
   background-color: rgba(0, 0, 0, 0);
   color: var(--gold);
-
+  padding-right: 10px;
 }
 .Developer_violinist {
   margin-left: 10%;
@@ -46,7 +52,7 @@
 .arrow_down {
   display: flex;
   background-color: rgba(0, 0, 0, 0);
-  margin: 5% auto 1% auto;
+  margin: 5% auto 3% auto;
 }
 .LandingPage {
   display: flex;
@@ -67,6 +73,7 @@
 @media screen and (max-width: 600px){
   .Hi {
     flex-direction: column;
+    margin-top:15%;
   }
   .smallHi {
     display: flex;
@@ -75,14 +82,51 @@
    flex-direction: column;
    flex-wrap: wrap;
   }
+  .developer {
+    display: flex;
+  }
+  .smallHi {
+    padding-left: 0;
+  }
+  .arrow_down {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
 }
 
 @media screen and (max-width: 450px){
   .LandingPage{
     width: 100vw;
   }
+  .smallHi {
+    padding-left: 0;
+  }
   .arrow_down {
     padding-bottom: 15px;
     padding-top: 15px;
+  }
+  .Hi {
+    margin-top: 25%;
+  }
+  .Period {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .developer {
+    display: flex;
+
+  }
+}
+
+@media screen and (max-width: 375px){
+  .Hi {
+    font-size: 60px;
+  }
+  .smallHi {
+    padding-left: 0;
+  }
+  .Period {
+    padding-right: 0;
+    text-align: center;
   }
 }

@@ -65,4 +65,7 @@
   .NavBar{
     max-width: 98vw;
   }
+  .Nav_item_wrapper {
+    margin-bottom: 0;
+  }
 } 

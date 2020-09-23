@@ -53,6 +53,10 @@
   .About_text {
     max-width: 80%;
   }
+  .About_title {
+    padding-top: 25px;
+    margin-top: 0;
+  }
 }
 @media screen and (max-width: 450px) {
   .About_text {
@@ -71,6 +75,7 @@
   .About_title {
     margin-top: 0;
     height: 1.8em;
+    font-size: 60px;
   }
   .About_wrapper {
     margin-bottom: 0;

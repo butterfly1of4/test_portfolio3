@@ -243,9 +243,10 @@ padding-left: 0;
 }
 
 @media screen and (max-width: 375px){
-  /* .thumbnail_wrapper {
-    width: 98%;
-  } */
+.Portfolio_title {
+  font-size: 60px;
+  margin-left: 7%;
+}
   .project_item {
     width: 100%;
     margin-left: 7%;
