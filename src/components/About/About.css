@@ -18,7 +18,7 @@
 .About_wrapper {
   box-sizing: border-box;
   display: flex;
-  margin: 0 10% 5% 10%;
+  margin: 0 10%;
   align-items: center;
   justify-content: space-between;
 }

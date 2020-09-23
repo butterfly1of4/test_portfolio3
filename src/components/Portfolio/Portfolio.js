@@ -26,7 +26,7 @@ class Portfolio extends Component {
                     <li className="thumbnail">
                       {" "}
                       <img className="icon flip_card_front" src={Tank} />
-                      {/* <img className="icon flip_card_back war_screenshot"src={WarScreenshot} /> */}
+                      <img className="flip_card_back war_screenshot"src={WarScreenshot} />
                     </li>
                   </div>
                   <li className="links">
@@ -57,7 +57,7 @@ class Portfolio extends Component {
                     <li className="thumbnail">
                       {" "}
                       <img className="icon flip_card_front" src={Planet} />
-                      {/* <img className="icon flip_card_back war_screenshot"src={NasaScreenshot} /> */}
+                      <img className=" flip_card_back war_screenshot"src={NasaScreenshot} />
                     </li>
                   </div>
                   <li className="links">
@@ -83,13 +83,13 @@ class Portfolio extends Component {
               </li>
               <li className="project_item flip_card">
                 <ul className="Nterflix_project">
-                  <div className= "nterflix_thumbnail_wrapper flip_card_inner">
-                  <li className="nterflix_thumbnail">
+                  <div className= "thumbnail_wrapper flip_card_inner">
+                  <li className="thumbnail">
                     {" "}
-                    <img className="icon flip_card_front" src={Film} />{/* <img className="icon flip_card_back war_screenshot"src={NterflixScreenshot} /> */}
+                    <img className="icon flip_card_front" src={Film} /><img className="flip_card_back war_screenshot"src={Nterflix} />
                   </li>
                   </div>
-                  <li className="nterflix_links">
+                  <li className="links">
                     {" "}
                     <a
                       className="ViewCode"
