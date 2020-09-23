@@ -5,6 +5,14 @@
 
 }
 
+.additionalList {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  margin: auto 10% auto 2%;
+  line-height: 35px;
+
+}
 .additionalItems {
   display: flex;
   justify-content: center;
@@ -121,10 +129,10 @@ padding-left: 0;
   
 } 
 
-.war_screenshot {
+/* .war_screenshot {
   width: 22.5em;
   height: 14.5em;
-}
+} */
 .flip_card {
   /* border: 1px solid #B2AB11; */
    background-color: transparent;
@@ -205,4 +213,10 @@ padding-left: 0;
   grid-column: auto;
   background-color: black;
   color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .divider {
+    padding: 1px;
+  }
 }

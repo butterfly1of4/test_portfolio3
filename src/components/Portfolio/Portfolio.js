@@ -127,9 +127,24 @@ class Portfolio extends Component {
               Additional Work<div className="Period">:</div>
             </h3>
             <div className="additionalItems">
-              Responsive Webpage <div className="divider">|</div>Project #2{" "}
-              <div className="divider">|</div>Project #3{" "}
-              <div className="divider">|</div>Project #4{" "}
+              <ul className="additionalList">
+                <li className="listItem">
+              RESPONSIVE WEBPAGE 
+          </li>
+          <li>
+              <div className="divider">|</div></li>
+              <li className="listItem">
+              STATISTICS WITHOUT BORDERS
+              </li>
+              <li>
+              <div className="divider">|</div></li>
+              <li className="listItem">
+              Project #3{" "}
+              {/* STORYBOOK */}</li>
+              <li>
+              <div className="divider">|</div></li>
+              <li className="listItem">Project #4{" "}</li>
+            </ul>
             </div>
           </p>
         </div>

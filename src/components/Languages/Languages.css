@@ -3,6 +3,7 @@
   display: flex;
   font-family: "Arvo";
   margin-left: 10%;
+  margin-bottom: .4em;
 }
 .slashes {
   color: var(--gold);
@@ -38,4 +39,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   font-weight: 400;
+}
+
+@media screen and (max-width: 600px){
+  .skills_list {
+    line-height: 30px;
+  }
 }

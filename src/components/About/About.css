@@ -1,5 +1,4 @@
 .About_text {
-  /* margin-bottom: 3%; */
   font-size: 20px;
   font-family: 'Open Sans';
   max-width: 60%;
@@ -19,7 +18,7 @@
 .About_wrapper {
   box-sizing: border-box;
   display: flex;
-  margin: auto 10% 5% 10%;
+  margin: 0 10% 5% 10%;
   align-items: center;
   justify-content: space-between;
 }
@@ -32,7 +31,7 @@
   height: 2em;
   align-self: flex-start;
   margin-left: 10%;
-  margin-bottom: 0;
+  margin-bottom: -10px;
 }
 
 .About {
@@ -43,4 +42,13 @@
   justify-content: flex-start;
   max-width: 100vw;
   background-color: black;
+}
+
+@media screen and (max-width: 600px){
+  .About_wrapper {
+    flex-direction: column;
+  }
+  .About_text {
+    max-width: 80%;
+  }
 }
