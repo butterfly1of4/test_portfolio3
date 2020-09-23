@@ -1,10 +1,10 @@
 .About_text {
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   max-width: 60%;
 }
 .headshot {
- height: inherit;
+  height: inherit;
   width: 100%;
 }
 .About_image {
@@ -44,11 +44,35 @@
   background-color: black;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .About_wrapper {
     flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 30px;
   }
   .About_text {
     max-width: 80%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .About_text {
+    max-width: 98%;
+  }
+  .About {
+    margin-bottom: 0;
+  }
+  .About_title {
+    padding-top: 25px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .About_title {
+    margin-top: 0;
+    height: 1.8em;
+  }
+  .About_wrapper {
+    margin-bottom: 0;
   }
 }

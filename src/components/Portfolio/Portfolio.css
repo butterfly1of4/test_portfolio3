@@ -189,6 +189,7 @@ padding-left: 0;
 }
 .project_wrapper {
   display: flex;
+  flex-direction: row;
   box-sizing: border-box;
   background-color: black;
   justify-content: space-evenly;
@@ -215,8 +216,39 @@ padding-left: 0;
   color: white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .divider {
     padding: 1px;
   }
+}
+
+@media screen and (max-width: 450px) {
+  .project_list {
+    flex-flow: column;
+    margin-right: 10%
+  }
+  .additionalList {
+    display: flex;
+    flex-direction: column;
+  }
+  .project_item {
+    margin-top: 25%;
+  }
+  .Portfolio_title {
+    margin-bottom:0;
+  }
+  .additionalWork {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 375px){
+  /* .thumbnail_wrapper {
+    width: 98%;
+  } */
+  .project_item {
+    width: 100%;
+    margin-left: 7%;
+  }
+
 }

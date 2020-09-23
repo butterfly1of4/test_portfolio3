@@ -32,3 +32,26 @@
 
   height: 100%;
 }
+@media screen and (max-width: 600px){
+  .Footer_icons {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 450px){
+  .Footer_icons {
+    width: 50%;
+    margin-bottom: 3%;
+  }
+  .Footer {
+    max-height: 40vh;
+  }
+} 
+@media screen and (max-width: 375px){
+  .Footer_icons {
+    width: 60%;
+    margin-bottom: 3%;
+  }
+  .Footer {
+    max-height: 40vh;
+  }
+} 

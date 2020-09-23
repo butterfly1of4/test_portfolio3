@@ -6,6 +6,7 @@
 .Hi {
   font-family: "Arvo";
   display: flex;
+  flex-direction: row;
   margin: 10% auto auto 10%;
   background-color: rgba(0, 0, 0, 0);
   font-size: 80px;
@@ -16,6 +17,7 @@
 .Period {
   background-color: rgba(0, 0, 0, 0);
   color: var(--gold);
+
 }
 .Developer_violinist {
   margin-left: 10%;
@@ -60,4 +62,27 @@
   background-image: url("../../assets/background.png");
   margin-top: 1%;
   margin: 0 0 !important;
+}
+
+@media screen and (max-width: 600px){
+  .Hi {
+    flex-direction: column;
+  }
+  .smallHi {
+    display: flex;
+  }
+  .Developer_violinist {
+   flex-direction: column;
+   flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .LandingPage{
+    width: 100vw;
+  }
+  .arrow_down {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
 }

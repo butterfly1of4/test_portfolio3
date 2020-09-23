@@ -90,5 +90,32 @@ span {
   background-color: black;
 }
 
+@media screen and (max-width: 600px){
+  .yellow_box {
+    flex-direction: column;
+  }
+  .button {
+    justify-content: center;
+    margin: auto auto 5% auto;
+  }
+}
 
-
+@media screen and (max-width: 450px) {
+  .Contact_title {
+    margin-left: 10%;
+  }
+  .yellow_box {
+    margin-top: 30px;
+  }
+  .Contact{
+    margin-top: 0;
+  }
+} 
+@media screen and (max-width: 375px){
+  .yellow_box {
+    margin-top: 30px;
+  }
+  .Contact_title {
+    margin-left: 5%;
+  }
+} 

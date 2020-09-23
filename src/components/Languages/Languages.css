@@ -45,4 +45,22 @@
   .skills_list {
     line-height: 30px;
   }
+  .slashes {
+    margin: auto 7px;
+  }
 }
+
+@media screen and (max-width: 450px) {
+  .skills_item {
+    margin-top: 3%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .Languages_title {
+    margin-bottom: 0;
+  }
+  .skills_item {
+    margin-top: 6%;
+  }
+} 
