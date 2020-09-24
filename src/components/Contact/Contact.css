@@ -4,7 +4,14 @@
   font-family: "Arvo";
   margin: 7% auto auto 15%;
 }
-
+.Contact_button:hover {
+  text-shadow: 1px 1px black;
+  box-shadow: 3px 3px  #b2ab11;
+}
+.Resume_button:hover {
+  text-shadow: 1px 1px #b2ab11;
+  box-shadow: 3px 3px #b2ab11;
+}
 .Contact_text {
   font-size: 24px;
   margin: 1em 1em 40px 15%;

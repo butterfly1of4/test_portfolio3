@@ -24,7 +24,7 @@ const LandingPage = (props) => {
       <hr className="Landing_hr" />
       <p className="About_blurb">
         I’m a Full stack Developer, web developer + recent grad of General
-        Assembly in Washington. DC. ...Looking for full time or contract
+        Assembly in Washington, D.C. ...Looking for full time or contract
         opportuines in the DMV or Remotely. {" "}
       </p>
       <img src={arrow_down} className="arrow_down" alt="arrow_down" /> 

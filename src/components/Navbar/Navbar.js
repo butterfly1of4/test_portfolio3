@@ -9,8 +9,13 @@ import Scrollchor from "react-scrollchor";
 import About from "../About/About";
 
 class Navbar extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    this.state = {
+      
+    }
+
+  
   }
   render() {
     return (
@@ -18,7 +23,9 @@ class Navbar extends Component {
         header={
           <nav className="NavBar">
             <div className="Header ">
+              <a href="#Landing_Page" className="circleLogo">
               <img src={CircleLogo} className="circleLogo" alt="circleLogo" />
+              </a>
               <div className="Header_root">
                 <ul className="Nav_item_wrapper">
                   <li className="Nav_item">

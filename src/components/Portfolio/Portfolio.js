@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {render } from 'react-dom'
 import "./Portfolio.css";
 import "../../index.css";
 import Tank from "../../assets/Tank_Icon.png";
@@ -11,6 +12,7 @@ import { Router, Link, Switch } from "react-router-dom";
 
 // React Class Component
 class Portfolio extends Component {
+  
   render() {
     return (
       <div className="Portfolio" id="Portfolio">
@@ -32,6 +34,7 @@ class Portfolio extends Component {
                   <li className="links">
                     {" "}
                     <a
+            
                       className="ViewCode deployed_link"
                       target="_blank"
                       style={{ textDecoration: "none" }}
@@ -39,6 +42,7 @@ class Portfolio extends Component {
                     >
                       GAME OF WAR
                     </a>
+                    
                     <a
                       className="ViewCode"
                       target="_blank"
@@ -47,6 +51,8 @@ class Portfolio extends Component {
                     >
                       VIEW CODE
                     </a>
+
+
                   </li>
                 </ul>
               </li>
@@ -152,7 +158,7 @@ class Portfolio extends Component {
     );
   }
 }
-
+// render(<Portfolio />)
 export default Portfolio;
 
 // https://project8-backend.herokuapp.com/expire & https://project8-backend.herokuapp.com/release

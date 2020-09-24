@@ -38,7 +38,8 @@ class Footer extends Component {
                 </div>
                 <div className="Copywrite">Built by Jenn Houck <div className="Divider">|</div> © 2020</div>
                 <div className="JHLogo">
-                    <img src={JHLogo} className="JHLogo" alt="JHLogo"/>
+                    <a className="JHLogo"href="#Landing_Page">
+                    <img src={JHLogo} className="JHLogo" alt="JHLogo"/></a>
                 </div>
             </div>
         )
