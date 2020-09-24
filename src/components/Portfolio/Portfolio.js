@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {render } from 'react-dom'
+import { render } from "react-dom";
 import "./Portfolio.css";
 import "../../index.css";
 import Tank from "../../assets/Tank_Icon.png";
@@ -8,11 +8,14 @@ import Planet from "../../assets/Planet_Icon.png";
 import NasaScreenshot from "../../assets/nasa_screenshot_small.png";
 import Film from "../../assets/Film_Icon.png";
 import Nterflix from "../../assets/Nterflix_screenshot_small.png";
+import Pallete from "../../assets/pallete_icon.png"
+import Responsive from "../../assets/responsive_screenshot_small.png"
+import Sigma from "../../assets/sigma_1.png"
+import SWB from "../../assets/Stastics_sceenshot_small.png"
 import { Router, Link, Switch } from "react-router-dom";
 
 // React Class Component
 class Portfolio extends Component {
-  
   render() {
     return (
       <div className="Portfolio" id="Portfolio">
@@ -28,31 +31,28 @@ class Portfolio extends Component {
                     <li className="thumbnail">
                       {" "}
                       <img className="icon flip_card_front" src={Tank} />
-                      <img className="flip_card_back war_screenshot"src={WarScreenshot} />
+                      <img
+                        className="flip_card_back war_screenshot"
+                        src={WarScreenshot}
+                      />
                     </li>
                   </div>
                   <li className="links">
                     {" "}
                     <a
-            
                       className="ViewCode deployed_link"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
                       href="https://butterfly1of4.github.io/Game-of-War/"
                     >
                       GAME OF WAR
                     </a>
-                    
                     <a
                       className="ViewCode"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
                       href="https://github.com/butterfly1of4/Game-of-War"
                     >
                       VIEW CODE
                     </a>
-
-
                   </li>
                 </ul>
               </li>
@@ -63,7 +63,10 @@ class Portfolio extends Component {
                     <li className="thumbnail">
                       {" "}
                       <img className="icon flip_card_front" src={Planet} />
-                      <img className=" flip_card_back war_screenshot"src={NasaScreenshot} />
+                      <img
+                        className=" flip_card_back war_screenshot"
+                        src={NasaScreenshot}
+                      />
                     </li>
                   </div>
                   <li className="links">
@@ -71,7 +74,6 @@ class Portfolio extends Component {
                     <a
                       className="ViewCode"
                       className="deployed_link"
-                      style={{ textDecoration: "none" }}
                       href="https://butterfly1of4.github.io/ui-pattern/"
                     >
                       NASA PLANETS PAGE
@@ -79,7 +81,6 @@ class Portfolio extends Component {
                     <a
                       className="ViewCode"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
                       href="https://github.com/butterfly1of4/ui-pattern"
                     >
                       VIEW CODE
@@ -89,11 +90,15 @@ class Portfolio extends Component {
               </li>
               <li className="project_item flip_card">
                 <ul className="Nterflix_project">
-                  <div className= "thumbnail_wrapper flip_card_inner">
-                  <li className="thumbnail">
-                    {" "}
-                    <img className="icon flip_card_front" src={Film} /><img className="flip_card_back war_screenshot"src={Nterflix} />
-                  </li>
+                  <div className="thumbnail_wrapper flip_card_inner">
+                    <li className="thumbnail">
+                      {" "}
+                      <img className="icon flip_card_front" src={Film} />
+                      <img
+                        className="flip_card_back war_screenshot"
+                        src={Nterflix}
+                      />
+                    </li>
                   </div>
                   <li className="links">
                     {" "}
@@ -101,7 +106,6 @@ class Portfolio extends Component {
                       className="ViewCode"
                       className="deployed_link"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
                       href="https://butterfly1of4.github.io/project8-frontend"
                     >
                       NTERFLIX
@@ -109,7 +113,6 @@ class Portfolio extends Component {
                     <a
                       className="ViewCode"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
                       href="https://github.com/butterfly1of4/project8-frontend"
                     >
                       VIEW FRONTEND CODE
@@ -117,7 +120,6 @@ class Portfolio extends Component {
                     <a
                       className="ViewCode"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
                       href="https://github.com/butterfly1of4/project8-backend"
                     >
                       VIEW BACKEND CODE
@@ -125,32 +127,64 @@ class Portfolio extends Component {
                   </li>
                 </ul>
               </li>
+              <li className="project_item flip_card">
+                <ul className="Responsive_project">
+                  <div className="thumbnail_wrapper flip_card_inner"></div>
+                </ul>
+              </li>
             </ul>
           </div>
 
           <p className="additionalWork">
-            <h3 className="additionalTitle">
+            {/* <h3 className="additionalTitle">
               Additional Work<div className="Period">:</div>
-            </h3>
+            </h3> */}
             <div className="additionalItems">
               <ul className="additionalList">
-                <li className="listItem">
-              RESPONSIVE WEBPAGE 
-          </li>
-          <li>
-              <div className="divider">|</div></li>
-              <li className="listItem">
-              STATISTICS WITHOUT BORDERS
-              </li>
-              <li>
-              <div className="divider">|</div></li>
-              <li className="listItem">
-              Project #3{" "}
-              {/* STORYBOOK */}</li>
-              <li>
-              <div className="divider">|</div></li>
-              <li className="listItem">Project #4{" "}</li>
-            </ul>
+                <li className="bottom_links">
+                  <a
+                    href="https://butterfly1of4.github.io/GA-responsive-webiste/"
+                    className="deployed_link"
+                    target="_blank"
+                  >
+                    RESPONSIVE WEBPAGE
+                  </a>
+                  <a
+                    className="ViewCode"
+                    target="_blank"
+                    href="https://github.com/butterfly1of4/GA-responsive-webiste"
+                  >
+                    VIEW CODE
+                  </a>
+                </li>
+                <li>
+                  <div className="divider">|</div>
+                </li>
+                <li className="bottom_links">
+                  <a
+                    href="https://swbapp.netlify.app/"
+                    className="deployed_link"
+                    target="_blank"
+                  >
+                    STATISTICS WITHOUT BORDERS
+                  </a>
+                  <a
+                    className="ViewCode"
+                    target="_blank"
+                    href="https://github.com/statisticswithoutborders/swb-app"
+                  >
+                    VIEW CODE
+                  </a>
+                </li>
+                <li>
+                  <div className="divider">|</div>
+                </li>
+                <li className="deployed_link">Project #3 {/* STORYBOOK */}</li>
+                <li>
+                  <div className="divider">|</div>
+                </li>
+                <li className="deployed_link">Project #4 </li>
+              </ul>
             </div>
           </p>
         </div>

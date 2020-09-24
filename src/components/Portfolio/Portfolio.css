@@ -87,6 +87,7 @@ padding-left: 0;
 }
 .ViewCode:hover {
   text-shadow: 1px 1px;
+  /* text-shadow: 0 0 3px black, 0 0 5px #b2ab11; */
 
 }
 .ViewCode {
@@ -95,11 +96,15 @@ padding-left: 0;
   font-family: 'Open Sans', serif;
   font-size: 16px;
   line-height: 22px;
+  text-decoration: none;
+
 }
 .deployed_link:hover {
   text-shadow: 1px 1px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: white;
+  /* text-shadow: 0 0 3px black, 0 0 5px white; */
+
 }
 
 .deployed_link {
@@ -108,7 +113,15 @@ padding-left: 0;
   font-weight: 600;
   font-size: 24px;
   line-height: 33px;
-
+  text-decoration: none;
+}
+.bottom_links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  line-height: 1;
+  height: fit-content;
+  text-align: center;
 }
 .links {
   display: flex;
