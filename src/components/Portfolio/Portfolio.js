@@ -11,7 +11,7 @@ import Nterflix from "../../assets/Nterflix_screenshot_small.png";
 import Pallete from "../../assets/pallete_icon.png"
 import Responsive from "../../assets/responsive_screenshot_small.png"
 import Sigma from "../../assets/sigma_1.png"
-import SWB from "../../assets/Stastics_sceenshot_small.png"
+import SWB from "../../assets/Statistics_screenshot_small.png"
 import { Router, Link, Switch } from "react-router-dom";
 
 // React Class Component
@@ -28,6 +28,7 @@ class Portfolio extends Component {
               <li className="project_item flip_card">
                 <ul className="War_project">
                   <div className="thumbnail_wrapper flip_card_inner">
+                    {/* //Game of war */}
                     <li className="thumbnail">
                       {" "}
                       <img className="icon flip_card_front" src={Tank} />
@@ -56,7 +57,7 @@ class Portfolio extends Component {
                   </li>
                 </ul>
               </li>
-
+                  {/* //Nasa */}
               <li className="project_item flip_card">
                 <ul className="Nasa_project">
                   <div className="thumbnail_wrapper flip_card_inner">
@@ -88,6 +89,7 @@ class Portfolio extends Component {
                   </li>
                 </ul>
               </li>
+              {/* //Nterflix */}
               <li className="project_item flip_card">
                 <ul className="Nterflix_project">
                   <div className="thumbnail_wrapper flip_card_inner">
@@ -127,9 +129,15 @@ class Portfolio extends Component {
                   </li>
                 </ul>
               </li>
+              {/* //Responsive */}
               <li className="project_item flip_card">
                 <ul className="Responsive_project">
-                  <div className="thumbnail_wrapper flip_card_inner"></div>
+                  <div className="thumbnail_wrapper flip_card_inner">
+                    <li className="thumbnail">{" "}
+                      <img src={Pallete} className="icon flip_card_front"/>
+                      <img src={Responsive} className="war_screenshot flip_card_back"/>
+                    </li>
+                  </div>
                 </ul>
               </li>
             </ul>
