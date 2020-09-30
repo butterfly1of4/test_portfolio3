@@ -130,7 +130,7 @@ class Portfolio extends Component {
                 </ul>
               </li>
               {/* //Responsive */}
-              <li className="project_item flip_card">
+              {/* <li className="project_item flip_card">
                 <ul className="Responsive_project">
                   <div className="thumbnail_wrapper flip_card_inner">
                     <li className="thumbnail">{" "}
@@ -139,7 +139,7 @@ class Portfolio extends Component {
                     </li>
                   </div>
                 </ul>
-              </li>
+              </li> */}
             </ul>
           </div>
 
