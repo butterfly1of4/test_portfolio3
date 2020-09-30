@@ -27,7 +27,11 @@ const LandingPage = (props) => {
         Assembly in Washington, D.C. ...Looking for full time or contract
         opportuines in the DMV or Remotely. {" "}
       </p>
+      <div className="arrow">
+        <a href="#Portfolio">
       <img src={arrow_down} className="arrow_down" alt="arrow_down" /> 
+      </a>
+      </div>
       </div>
       </div> 
     </div>

@@ -144,9 +144,9 @@ class Portfolio extends Component {
           </div>
 
           <p className="additionalWork">
-            {/* <h3 className="additionalTitle">
+            <h3 className="additionalTitle">
               Additional Work<div className="Period">:</div>
-            </h3> */}
+            </h3>
             <div className="additionalItems">
               <ul className="additionalList">
                 <li className="bottom_links">
@@ -187,11 +187,11 @@ class Portfolio extends Component {
                 <li>
                   <div className="divider">|</div>
                 </li>
-                <li className="deployed_link">Project #3 {/* STORYBOOK */}</li>
-                <li>
+                {/* <li className="deployed_link">Project #3 {/* STORYBOOK }</li> */}
+                {/* <li>
                   <div className="divider">|</div>
-                </li>
-                <li className="deployed_link">Project #4 </li>
+                </li> */}
+                {/* <li className="deployed_link">Project #4 </li> */}
               </ul>
             </div>
           </p>

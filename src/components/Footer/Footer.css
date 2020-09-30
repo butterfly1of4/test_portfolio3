@@ -75,7 +75,7 @@
     margin-bottom: 3%;
   }
   .Footer {
-    max-height: 40vh;
+    max-height: 30vh;
   }
 } 
 @media screen and (max-width: 375px){

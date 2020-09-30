@@ -9,7 +9,7 @@
 .Nav_item_wrapper {
   display: flex;
   flex-flow: row;
-  margin-right: 10%;
+  margin-right: auto;
   padding-left: 20%;
   list-style: none;
 
@@ -40,9 +40,16 @@
   flex-flow: row;
   height: 80px;
   align-items: center;
+  justify-content: left;
   background-color:rgba(0,0,0,0.4);
+  width: 100vw;
 }
-
+.NavBar {
+  max-width: 100vw;
+  /* padding: 15px; */
+  display:flex;
+  /* justify-content: right; */
+}
 @media screen and (max-width: 600px){
   .NavBar {
     display: flex;
