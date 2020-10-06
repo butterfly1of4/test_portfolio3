@@ -5,7 +5,7 @@ import "../../index.css";
 import Tank from "../../assets/Tank_Icon.png";
 import WarScreenshot from "../../assets/war_game_screenshot_small.png";
 import Planet from "../../assets/Planet_Icon.png";
-import NasaScreenshot from "../../assets/nasa_screenshot_small.png";
+import NasaScreenshot from "../../assets/smallNasa-new.png";
 import Film from "../../assets/Film_Icon.png";
 import Nterflix from "../../assets/Nterflix_screenshot_small.png";
 import Pallete from "../../assets/pallete_icon.png"
@@ -186,6 +186,18 @@ class Portfolio extends Component {
                 </li>
                 <li>
                   <div className="divider">|</div>
+                </li>
+                <li className="bottom_links">
+                  <a href="" 
+                  className="deployed_link"
+                  // target="_blank"
+                  >
+                    ADDRESS BOOK
+                  </a>
+                  <a  
+                  className="ViewCode"
+                  href="https://github.com/butterfly1of4/python_CLI_project"
+                  target="_blank">VIEW CODE</a>
                 </li>
                 {/* <li className="deployed_link">Project #3 {/* STORYBOOK }</li> */}
                 {/* <li>
