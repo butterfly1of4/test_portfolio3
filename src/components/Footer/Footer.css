@@ -73,9 +73,10 @@
   .Footer_icons {
     width: 50%;
     margin-bottom: 3%;
+    margin-top: 15%;
   }
   .Footer {
-    max-height: 30vh;
+    max-height: 40vh;
   }
 } 
 @media screen and (max-width: 375px){
@@ -88,3 +89,8 @@
     max-height: 40vh;
   }
 } 
+@media screen and (max-width: 300px) {
+  .Footer_icons {
+    width: 75%
+  }
+}

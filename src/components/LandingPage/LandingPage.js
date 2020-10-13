@@ -16,10 +16,11 @@ const LandingPage = (props) => {
         
       <h4 className="Developer_violinist">
         <div className="developer">
-  Developer by day<div className="Period">.</div> 
-    </div>
+        
+  Developer by   <div className="inlinePeriod"> day<div className="Period">.</div> 
+  </div></div>
   <div className="violinist"> {" "}</div>
-  <div className="developer">Violinist by night<div className="Period">.</div></div>
+  <div className="developer">Violinist by    <div className="inlinePeriod"> night<div className="Period">.</div></div></div>
       </h4>
       <hr className="Landing_hr" />
       <p className="About_blurb">

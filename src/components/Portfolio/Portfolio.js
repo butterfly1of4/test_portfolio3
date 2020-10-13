@@ -29,7 +29,7 @@ class Portfolio extends Component {
           <div className="project_wrapper">
             <ul className="project_list">
               {/* //Game of war */}
-              <li className="project_item flip_card">
+              <li className="project_item flip_card War">
                 <ul className="War_project">
                   <div className="thumbnail_wrapper flip_card_inner">
                     <li className="thumbnail">
@@ -61,7 +61,7 @@ class Portfolio extends Component {
                 </ul>
               </li>
               {/* //Nasa */}
-              <li className="project_item flip_card">
+              <li className="project_item flip_card Nasa">
                 <ul className="Nasa_project">
                   <div className="thumbnail_wrapper flip_card_inner">
                     <li className="thumbnail">
@@ -92,7 +92,7 @@ class Portfolio extends Component {
                 </ul>
               </li>
               {/* //Nterflix */}
-              <li className="project_item flip_card">
+              <li className="project_item flip_card Nterflix">
                 <ul className="Nterflix_project">
                   <div className="thumbnail_wrapper flip_card_inner">
                     <li className="thumbnail">
@@ -104,7 +104,7 @@ class Portfolio extends Component {
                       />
                     </li>
                   </div>
-                  <li className="links">
+                  <li className="links nterflix_links">
                     {" "}
                     <a
                       className="ViewCode deployed_link"
@@ -135,7 +135,7 @@ class Portfolio extends Component {
           <div className="project_wrapper_bottom">
             <ul className="project_list">
               {/* //Responsive */}
-              <li className="project_item flip_card">
+              <li className="project_item flip_card Responsive">
                 <ul className="Responsive_project">
                   <div className="thumbnail_wrapper flip_card_inner">
                     <li className="thumbnail">
@@ -167,7 +167,7 @@ class Portfolio extends Component {
                 </ul>
               </li>
               {/* Statistics */}
-              <li className="project_item flip_card">
+              <li className="project_item flip_card Statistics">
                 <ul className="SWB_project">
                   <div className="thumbnail_wrapper flip_card_inner">
                     <li className="thumbnail">
@@ -179,7 +179,7 @@ class Portfolio extends Component {
                       />
                     </li>
                   </div>
-                  <li className="links">
+                  <li className="links swb_links">
                     {" "}
                     <a
                       href="https://swbapp.netlify.app/"
@@ -199,7 +199,7 @@ class Portfolio extends Component {
                 </ul>
               </li>
               {/* Python Address Book */}
-              <li className="project_item flip_card">
+              <li className="project_item flip_card Address">
                 <ul className="Address_project">
                   <div className="thumbnail_wrapper flip_card_inner">
                     <li className="thumbnail">
@@ -235,7 +235,7 @@ class Portfolio extends Component {
 
           <p className="additionalWork">
             <h3 className="additionalTitle">
-              Additional Work<div className="Period">:</div>
+              Additional <div className = "inlinePeriod">Work<div className="Period">:</div></div>
             </h3>
             <div className="additionalItems">More projects are in the works!</div>
           </p>

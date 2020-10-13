@@ -129,3 +129,19 @@ span {
 
   }
 } 
+@media screen and (max-width: 300px) {
+.Contact_title {
+  margin-left: 10%;
+}
+.Resume_button {
+  width: 11em;
+}
+.Contact_button {
+  width: 11em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.button_link {
+  text-align: center;
+}
+}
