@@ -1,3 +1,79 @@
+
+       <ul className="additionalList">
+       <li className="bottom_links">
+         <a
+           href="https://butterfly1of4.github.io/GA-responsive-webiste/"
+           className="deployed_link"
+           target="_blank"
+         >
+           RESPONSIVE WEBPAGE
+         </a>
+         <a
+           className="ViewCode"
+           target="_blank"
+           href="https://github.com/butterfly1of4/GA-responsive-webiste"
+         >
+           VIEW CODE
+         </a>
+       </li>
+      
+       <li className="bottom_links">
+         <a
+           href="https://swbapp.netlify.app/"
+           className="deployed_link"
+           target="_blank"
+         >
+           STATISTICS WITHOUT BORDERS
+         </a>
+         <a
+           className="ViewCode"
+           target="_blank"
+           href="https://github.com/statisticswithoutborders/swb-app"
+         >
+           VIEW CODE
+         </a>
+       </li>
+       <li>
+         <div className="divider">|</div>
+       </li>
+       <li className="bottom_links">
+         <a href="" 
+         className="deployed_link"
+         // target="_blank"
+         >
+           ADDRESS BOOK
+         </a>
+         <a  
+         className="ViewCode"
+         href="https://github.com/butterfly1of4/python_CLI_project"
+         target="_blank">VIEW CODE</a>
+       </li>
+       {/* <li className="deployed_link">Project #3 {/* STORYBOOK }</li> */}
+       {/* <li>
+         <div className="divider">|</div>
+       </li> */}
+       {/* <li className="deployed_link">Project #4 </li> */}
+     </ul>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Navbar extends Component {
   constructor() {
     super();

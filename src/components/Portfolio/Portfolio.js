@@ -8,10 +8,13 @@ import Planet from "../../assets/Planet_Icon.png";
 import NasaScreenshot from "../../assets/smallNasa-new.png";
 import Film from "../../assets/Film_Icon.png";
 import Nterflix from "../../assets/Nterflix_screenshot_small.png";
-import Pallete from "../../assets/pallete_icon.png"
-import Responsive from "../../assets/responsive_screenshot_small.png"
-import Sigma from "../../assets/sigma_1.png"
-import SWB from "../../assets/Statistics_screenshot_small.png"
+import Pallete from "../../assets/pallete_icon.png";
+import Responsive from "../../assets/responsive_screenshot_small.png";
+import Sigma from "../../assets/sigma_1.png";
+import SWB from "../../assets/Statistics_screenshot_small.png";
+import Book from "../../assets/book_icon.png";
+import Address from "../../assets/small-pythoncli.png";
+
 import { Router, Link, Switch } from "react-router-dom";
 
 // React Class Component
@@ -25,13 +28,13 @@ class Portfolio extends Component {
         <div className="pic_text_list">
           <div className="project_wrapper">
             <ul className="project_list">
+              {/* //Game of war */}
               <li className="project_item flip_card">
                 <ul className="War_project">
                   <div className="thumbnail_wrapper flip_card_inner">
-                    {/* //Game of war */}
                     <li className="thumbnail">
                       {" "}
-                      <img className="icon flip_card_front" src={Tank} />
+                      <img className="icon  flip_card_front" src={Tank} />
                       <img
                         className="flip_card_back war_screenshot"
                         src={WarScreenshot}
@@ -57,7 +60,7 @@ class Portfolio extends Component {
                   </li>
                 </ul>
               </li>
-                  {/* //Nasa */}
+              {/* //Nasa */}
               <li className="project_item flip_card">
                 <ul className="Nasa_project">
                   <div className="thumbnail_wrapper flip_card_inner">
@@ -73,8 +76,7 @@ class Portfolio extends Component {
                   <li className="links">
                     {" "}
                     <a
-                      className="ViewCode"
-                      className="deployed_link"
+                      className="ViewCode deployed_link"
                       href="https://butterfly1of4.github.io/ui-pattern/"
                     >
                       NASA PLANETS PAGE
@@ -105,8 +107,7 @@ class Portfolio extends Component {
                   <li className="links">
                     {" "}
                     <a
-                      className="ViewCode"
-                      className="deployed_link"
+                      className="ViewCode deployed_link"
                       target="_blank"
                       href="https://butterfly1of4.github.io/project8-frontend"
                     >
@@ -129,17 +130,106 @@ class Portfolio extends Component {
                   </li>
                 </ul>
               </li>
+            </ul>
+          </div>
+          <div className="project_wrapper_bottom">
+            <ul className="project_list">
               {/* //Responsive */}
-              {/* <li className="project_item flip_card">
+              <li className="project_item flip_card">
                 <ul className="Responsive_project">
                   <div className="thumbnail_wrapper flip_card_inner">
-                    <li className="thumbnail">{" "}
-                      <img src={Pallete} className="icon flip_card_front"/>
-                      <img src={Responsive} className="war_screenshot flip_card_back"/>
+                    <li className="thumbnail">
+                      {" "}
+                      <img className="icon  flip_card_front" src={Pallete} />
+                      <img
+                        className="flip_card_back war_screenshot"
+                        src={Responsive}
+                      />
                     </li>
                   </div>
+                  <li className="links">
+                    {" "}
+                    <a
+                      href="https://butterfly1of4.github.io/GA-responsive-webiste/"
+                      className="deployed_link"
+                      target="_blank"
+                    >
+                      RESPONSIVE WEBPAGE
+                    </a>
+                    <a
+                      className="ViewCode"
+                      target="_blank"
+                      href="https://github.com/butterfly1of4/GA-responsive-webiste"
+                    >
+                      VIEW CODE
+                    </a>
+                  </li>
                 </ul>
-              </li> */}
+              </li>
+              {/* Statistics */}
+              <li className="project_item flip_card">
+                <ul className="SWB_project">
+                  <div className="thumbnail_wrapper flip_card_inner">
+                    <li className="thumbnail">
+                      {" "}
+                      <img className="icon  flip_card_front" src={Sigma} />
+                      <img
+                        className="flip_card_back war_screenshot"
+                        src={SWB}
+                      />
+                    </li>
+                  </div>
+                  <li className="links">
+                    {" "}
+                    <a
+                      href="https://swbapp.netlify.app/"
+                      className="deployed_link"
+                      target="_blank"
+                    >
+                      STATISTICS WITHOUT BORDERS
+                    </a>
+                    <a
+                      className="ViewCode"
+                      target="_blank"
+                      href="https://github.com/statisticswithoutborders/swb-app"
+                    >
+                      VIEW CODE
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              {/* Python Address Book */}
+              <li className="project_item flip_card">
+                <ul className="Address_project">
+                  <div className="thumbnail_wrapper flip_card_inner">
+                    <li className="thumbnail">
+                      {" "}
+                      <img className="icon  flip_card_front" src={Book} />
+                      <img
+                        className="flip_card_back war_screenshot"
+                        src={Address}
+                      />
+                    </li>
+                  </div>
+                  <li className="links">
+                    {" "}
+                    <a
+                      href=""
+                      className="deployed_link"
+                      // target="_blank"
+                    >
+                      ADDRESS BOOK
+                    </a>
+                    <a
+                      className="ViewCode"
+                      href="https://github.com/butterfly1of4/python_CLI_project"
+                      target="_blank"
+                    >
+                      VIEW CODE
+                    </a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
 
@@ -147,65 +237,7 @@ class Portfolio extends Component {
             <h3 className="additionalTitle">
               Additional Work<div className="Period">:</div>
             </h3>
-            <div className="additionalItems">
-              <ul className="additionalList">
-                <li className="bottom_links">
-                  <a
-                    href="https://butterfly1of4.github.io/GA-responsive-webiste/"
-                    className="deployed_link"
-                    target="_blank"
-                  >
-                    RESPONSIVE WEBPAGE
-                  </a>
-                  <a
-                    className="ViewCode"
-                    target="_blank"
-                    href="https://github.com/butterfly1of4/GA-responsive-webiste"
-                  >
-                    VIEW CODE
-                  </a>
-                </li>
-                <li>
-                  <div className="divider">|</div>
-                </li>
-                <li className="bottom_links">
-                  <a
-                    href="https://swbapp.netlify.app/"
-                    className="deployed_link"
-                    target="_blank"
-                  >
-                    STATISTICS WITHOUT BORDERS
-                  </a>
-                  <a
-                    className="ViewCode"
-                    target="_blank"
-                    href="https://github.com/statisticswithoutborders/swb-app"
-                  >
-                    VIEW CODE
-                  </a>
-                </li>
-                <li>
-                  <div className="divider">|</div>
-                </li>
-                <li className="bottom_links">
-                  <a href="" 
-                  className="deployed_link"
-                  // target="_blank"
-                  >
-                    ADDRESS BOOK
-                  </a>
-                  <a  
-                  className="ViewCode"
-                  href="https://github.com/butterfly1of4/python_CLI_project"
-                  target="_blank">VIEW CODE</a>
-                </li>
-                {/* <li className="deployed_link">Project #3 {/* STORYBOOK }</li> */}
-                {/* <li>
-                  <div className="divider">|</div>
-                </li> */}
-                {/* <li className="deployed_link">Project #4 </li> */}
-              </ul>
-            </div>
+            <div className="additionalItems">More projects are in the works!</div>
           </p>
         </div>
       </div>
