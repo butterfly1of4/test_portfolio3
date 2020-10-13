@@ -50,6 +50,16 @@
   display:flex;
   /* justify-content: right; */
 }
+@media screen and (max-width: 1050px){
+.Nav_item {
+  margin-left: 5%;
+}
+}
+@media screen and (max-width: 800px){
+  .Nav_item {
+    margin-left: 3%;
+  }
+  }
 @media screen and (max-width: 600px){
   .NavBar {
     display: flex;
