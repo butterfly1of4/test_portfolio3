@@ -251,6 +251,8 @@
   color: white;
 }
 
+
+
 @media screen and (max-width: 600px) {
   .divider {
     padding: 1px;
@@ -277,14 +279,28 @@
     margin-top: -1%
   }
   .icon {
-    margin-left: 9%
+    margin-left: 9%;
+   
   }
 }
 
+
+
 @media screen and (max-width: 450px) {
+  .icon {
+    margin-left:  auto;
+    padding-right: 25%;
+  }
+  .thumbnail {
+    padding-right: 13%;
+  }
+  .war_screenshot {
+    max-width: 85%;
+
+  }
   .project_list {
     flex-flow: column;
-    margin-right: 10%;
+
   }
   .additionalList {
     display: flex;
@@ -310,18 +326,14 @@
   .additionalItems {
     margin-top:0;
   }
-  .flip_card_front {
-    margin-right: -65%;
-  }
+
   .links {
     padding-top: 15%;
   }
   .Address {
     margin-top: 55%;
   }
-  .Responsive {
-    margin-top: 27%
-  }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -330,17 +342,17 @@
     margin-left: 7%;
   }
   .project_item {
-    width: 100%;
-    margin-left: 7%;
+    max-width: 97%;
+    margin-left: 4%;
     margin-bottom: 10%;
-    margin-top: 35%;
+
   }
   .Address{
     margin-top: 40%;
   }
-  .Responsive {
+  /* .Responsive {
     margin-top: 30%;
-  }
+  } */
   .project_wrapper {
     margin: 0;
 
@@ -366,13 +378,8 @@
   .project_wrapper_bottom{
     padding-top: 0;
   }
-  .war_screenshot {
-   margin-right: -5%;
-    
-  }
-  .icon {
-    margin-right: -35%;
-  }
+
+
 }
   
 @media screen and (max-width: 300px){
@@ -385,13 +392,7 @@
   .Portfolio_title {
     font-size: 50px;
   }
-  .icon {
-    margin-left:20%;
-  }
-  .war_screenshot {
-    /* margin-right: 5%; */
-    margin-left: -38%;
-  }
+
   .additionalTitle {
     display: flex;
     flex-direction: column;
