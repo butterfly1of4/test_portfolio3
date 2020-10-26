@@ -77,7 +77,7 @@ class Portfolio extends Component {
                     {" "}
                     <a
                       className="ViewCode deployed_link"
-                      href="https://butterfly1of4.github.io/ui-pattern/"
+                      href="https://butterfly1of4.github.io/ui-pattern/" target="_blank"
                     >
                       NASA PLANETS PAGE
                     </a>
@@ -95,7 +95,7 @@ class Portfolio extends Component {
               <li className="project_item flip_card Nterflix">
                 <ul className="Nterflix_project">
                   <div className="thumbnail_wrapper flip_card_inner">
-                    <li className="thumbnail">
+                    <li className="thumbnail nterflix_thumbnail">
                       {" "}
                       <img className="icon flip_card_front" src={Film} />
                       <img
@@ -237,6 +237,28 @@ class Portfolio extends Component {
             <h3 className="additionalTitle">
               Additional <div className = "inlinePeriod">Work<div className="Period">:</div></div>
             </h3>
+            <p className="others">
+              <ul className="others_list">
+                <li className="other-work">
+              <a className="other-links deployed_link" href="https://github.com/butterfly1of4/State_capitals" target="_blank">State Capitals Quiz</a><a
+                      className="ViewCode"
+                      href="https://github.com/butterfly1of4/State_capitials"
+                      target="_blank"
+                    >
+                      VIEW CODE
+                    </a>
+                    </li>
+                    <li className="other-work">
+              <a className="other-links deployed_link" href="https://github.com/butterfly1of4/Guessing-game" target="_blank">Number Guessing Game</a><a
+                      className="ViewCode"
+                      href="https://github.com/butterfly1of4/Guessing-game"
+                      target="_blank"
+                    >
+                      VIEW CODE
+                    </a>
+                    </li>
+                    </ul>
+            </p>
             <div className="additionalItems">More projects are in the works!</div>
           </p>
         </div>
@@ -249,3 +271,4 @@ export default Portfolio;
 
 // https://project8-backend.herokuapp.com/expire & https://project8-backend.herokuapp.com/release
 // https://github.com/butterfly1of4/GA-responsive-webiste
+

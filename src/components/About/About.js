@@ -13,7 +13,7 @@ const About = (props) => {
      <h1 className="About_title">About<div className="Period">.</div></h1> 
      <div className="About_wrapper">
   <div className="About_image">{" "}<img className="headshot" src={Headshot} /></div>
-      <p className="About_text">Jennifer is native of Maryland and has lived in the DMV since 2010 working as a professional violinist for various state run orchestras and as a teacher at local Virginia and Maryland schools. In June of 2020 (in the peak of COVID season) Jennifer attended General Assembly’s Software Engineering 12 week Immersive bootcamp where she worked indivudially and collaboratively to create apps, webpages and games. </p>
+      <p className="About_text">Jennifer is native of Maryland and has lived in the DMV since 2010. She has been working as a professional violinist, playing for various regional orchestras, and as a teacher at local Virginia and Maryland schools. In June of 2020 (in the peak of COVID season), Jennifer attended General Assembly’s Software Engineering 12 week Immersive bootcamp where she worked indivudially and collaboratively to create apps, webpages and games. </p>
      </div>
     </div>
   );

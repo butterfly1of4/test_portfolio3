@@ -2,6 +2,20 @@
   color: var(--gold);
   padding: 0 10px;
 }
+.other-work {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  line-height: 1;
+  height: fit-content;
+  text-align: center;
+}
+.others_list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
 .additionalList {
   list-style: none;
@@ -110,7 +124,7 @@
 }
 .deployed_link:hover {
   text-shadow: 1px 1px;
-  /* text-decoration: underline; */
+  text-decoration: underline;
   color: white;
   /* text-shadow: 0 0 3px black, 0 0 5px white; */
 }
@@ -241,6 +255,30 @@
   .divider {
     padding: 1px;
   }
+  .others_list {
+    flex-direction: column;
+    margin-right: 10%;
+  }
+  .war_screenshot {
+   max-width: 95%;
+   max-height: 90%;
+   margin-left: -18%;
+  }
+  .project_list {
+    margin-right: 3%
+  }
+  .nterflix_thumbnail {
+    padding-bottom: 10%;
+  }
+  .nterflix_links {
+    padding-top: 18%;
+  }
+  .Nterflix{
+    margin-top: -1%
+  }
+  .icon {
+    margin-left: 9%
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -252,6 +290,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .project_item {
     margin-top: 45%;
   }
@@ -315,8 +354,8 @@
   }
   .additionalItems {
     margin-top: 0;
-    margin-left: 5%;
     line-height: 1.5;
+    text-align: center;
   }
   .additionalWork {
     margin-top: 0;
@@ -327,8 +366,15 @@
   .project_wrapper_bottom{
     padding-top: 0;
   }
-
+  .war_screenshot {
+   margin-right: -5%;
+    
+  }
+  .icon {
+    margin-right: -35%;
+  }
 }
+  
 @media screen and (max-width: 300px){
   .Statistics {
     margin-top: 47%;
@@ -338,6 +384,13 @@
   }
   .Portfolio_title {
     font-size: 50px;
+  }
+  .icon {
+    margin-left:20%;
+  }
+  .war_screenshot {
+    /* margin-right: 5%; */
+    margin-left: -38%;
   }
   .additionalTitle {
     display: flex;
@@ -349,5 +402,10 @@
     margin: 10%;
     text-align: left;
     line-height: 1.5;
+  }
+  .others_list{
+    flex-direction: column;
+   justify-content: center;
+   margin-right: 13%;
   }
 }
