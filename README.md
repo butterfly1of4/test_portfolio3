@@ -1,3 +1,6 @@
+##README UPDATE
+npm install react-scripts@latest
+
 
 selector for section
 

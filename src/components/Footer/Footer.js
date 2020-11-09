@@ -20,7 +20,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <div className="Footer">
+            <div className="Footer" id="Footer">
                 <div className="Footer_icons">
                <a href="https://github.com/butterfly1of4" target="_blank">
                    {" "}

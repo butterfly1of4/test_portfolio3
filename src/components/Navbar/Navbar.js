@@ -23,7 +23,7 @@ class Navbar extends Component {
         header={
           <nav className="NavBar">
             <div className="Header ">
-              <a href="#Landing_Page" className="circleLogo">
+              <a href="#Footer" className="circleLogo">
               <img src={CircleLogo} className="circleLogo" alt="circleLogo" />
               </a>
               <div className="Header_root">

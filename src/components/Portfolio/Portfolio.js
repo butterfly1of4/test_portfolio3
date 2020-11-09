@@ -242,7 +242,7 @@ class Portfolio extends Component {
                 <li className="other-work">
               <a className="other-links deployed_link" href="https://github.com/butterfly1of4/State_capitals" target="_blank">State Capitals Quiz</a><a
                       className="ViewCode"
-                      href="https://github.com/butterfly1of4/State_capitials"
+                      href="https://github.com/butterfly1of4/State_capitals"
                       target="_blank"
                     >
                       VIEW CODE
