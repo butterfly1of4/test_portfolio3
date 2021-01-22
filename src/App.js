@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App_container">
       <Navbar />
-      <Route path="/butterfly1of4.github.io" exact={true}>
+      <Route path="">
         <LandingPage />
         <Portfolio />
         <Languages />
