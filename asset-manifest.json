@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/butterfly1of4.github.io/static/css/main.cb60f9ec.chunk.css",
-    "main.js": "/butterfly1of4.github.io/static/js/main.002bb49b.chunk.js",
-    "main.js.map": "/butterfly1of4.github.io/static/js/main.002bb49b.chunk.js.map",
-    "runtime-main.js": "/butterfly1of4.github.io/static/js/runtime-main.82418812.js",
-    "runtime-main.js.map": "/butterfly1of4.github.io/static/js/runtime-main.82418812.js.map",
+    "main.js": "/butterfly1of4.github.io/static/js/main.ba4b207d.chunk.js",
+    "main.js.map": "/butterfly1of4.github.io/static/js/main.ba4b207d.chunk.js.map",
+    "runtime-main.js": "/butterfly1of4.github.io/static/js/runtime-main.d0dd1cbf.js",
+    "runtime-main.js.map": "/butterfly1of4.github.io/static/js/runtime-main.d0dd1cbf.js.map",
     "static/css/2.fa571299.chunk.css": "/butterfly1of4.github.io/static/css/2.fa571299.chunk.css",
-    "static/js/2.704e24e4.chunk.js": "/butterfly1of4.github.io/static/js/2.704e24e4.chunk.js",
-    "static/js/2.704e24e4.chunk.js.map": "/butterfly1of4.github.io/static/js/2.704e24e4.chunk.js.map",
+    "static/js/2.75784dfb.chunk.js": "/butterfly1of4.github.io/static/js/2.75784dfb.chunk.js",
+    "static/js/2.75784dfb.chunk.js.map": "/butterfly1of4.github.io/static/js/2.75784dfb.chunk.js.map",
     "index.html": "/butterfly1of4.github.io/index.html",
     "static/css/2.fa571299.chunk.css.map": "/butterfly1of4.github.io/static/css/2.fa571299.chunk.css.map",
     "static/css/main.cb60f9ec.chunk.css.map": "/butterfly1of4.github.io/static/css/main.cb60f9ec.chunk.css.map",
-    "static/js/2.704e24e4.chunk.js.LICENSE.txt": "/butterfly1of4.github.io/static/js/2.704e24e4.chunk.js.LICENSE.txt",
+    "static/js/2.75784dfb.chunk.js.LICENSE.txt": "/butterfly1of4.github.io/static/js/2.75784dfb.chunk.js.LICENSE.txt",
     "static/media/CurrentResume.fb77e02a.pdf": "/butterfly1of4.github.io/static/media/CurrentResume.fb77e02a.pdf",
     "static/media/Nterflix_screenshot_small.522c3384.png": "/butterfly1of4.github.io/static/media/Nterflix_screenshot_small.522c3384.png",
     "static/media/Statistics_screenshot_small.42d4ad2a.png": "/butterfly1of4.github.io/static/media/Statistics_screenshot_small.42d4ad2a.png",
@@ -23,10 +23,10 @@
     "static/media/war_game_screenshot_small.cf9d26d0.png": "/butterfly1of4.github.io/static/media/war_game_screenshot_small.cf9d26d0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.82418812.js",
+    "static/js/runtime-main.d0dd1cbf.js",
     "static/css/2.fa571299.chunk.css",
-    "static/js/2.704e24e4.chunk.js",
+    "static/js/2.75784dfb.chunk.js",
     "static/css/main.cb60f9ec.chunk.css",
-    "static/js/main.002bb49b.chunk.js"
+    "static/js/main.ba4b207d.chunk.js"
   ]
 }
