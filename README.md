@@ -1,22 +1,49 @@
 ##README UPDATE
+
+add this back in:
+    "build": "react-scripts build",
+
+
+
+try: npm run babel && onchange ‘app/**/*.js’ — npm run babel
+
+CODE FROM BOTTOM OF PACKAGE.JSO
+
+
+
+
+
+
+
 npm install react-scripts@latest
+OR
+npm update
 
+original build script:    "start": "react-scripts start",
+***
+possible node-cleaning scripts:
 
-selector for section
+I have added few lines inside package.json:
 
+"scripts": {
+  
+  "clean": "rmdir /s /q node_modules",
+  "reinstall": "npm run clean && npm install",
+  "rebuild": "npm run clean && npm install && rmdir /s /q dist && npm run build --prod"
+}
+***
+create-react-app-buildpack, update the static.json file
 
-portfolio: same size, new images, correct colors  and additional work 
+"headers": { 
+    "/**": { 
+        "Cache-Control": "no-store, no-cache" 
+    } 
+}
+***
+or 
+You may want to add the following to your server side response header
 
-Landing:
-developer closer to Jenn Houck
-h4 - no 42px list
-fix arrow/pic relationship
-
-
-contact further from yellow box (73px)
-
-portfolio boxes sized to about and 24px between
-
+"Cache-Control": "no-store, no-cache"
 
 
 
