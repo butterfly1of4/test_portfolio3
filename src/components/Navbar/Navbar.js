@@ -1,21 +1,13 @@
 import React, { Component } from "react";
 import "./Navbar.css";
 import CircleLogo from "../../assets/CircleLogo.png";
-import { Link } from "react-router-dom";
-import LandingPage from "../LandingPage/LandingPage";
 import "react-sticky-header/styles.css";
 import StickyHeader from "react-sticky-header";
-import Scrollchor from "react-scrollchor";
-import About from "../About/About";
 
 class Navbar extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      
-    }
-
-  
+    this.state = {};
   }
   render() {
     return (
@@ -24,7 +16,7 @@ class Navbar extends Component {
           <nav className="NavBar">
             <div className="Header ">
               <a href="#Footer" className="circleLogo">
-              <img src={CircleLogo} className="circleLogo" alt="circleLogo" />
+                <img src={CircleLogo} className="circleLogo" alt="circleLogo" />
               </a>
               <div className="Header_root">
                 <ul className="Nav_item_wrapper">

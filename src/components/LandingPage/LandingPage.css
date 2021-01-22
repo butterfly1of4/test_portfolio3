@@ -37,7 +37,7 @@
 .inlinePeriod {
   display: flex;
   flex-direction: row;
-  margin-left: .75%;
+  margin-left: 0.75%;
 }
 .Landing_hr {
   background-color: rgba(0, 0, 0, 0);
@@ -68,7 +68,7 @@
   max-width: 100vw;
   background-size: cover;
   color: white;
-  margin:0
+  margin: 0;
 }
 .background {
   background-image: url("../../assets/background.png");
@@ -76,17 +76,17 @@
   margin: 0 0 !important;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .Hi {
     flex-direction: column;
-    margin-top:15%;
+    margin-top: 15%;
   }
   .smallHi {
     display: flex;
   }
   .Developer_violinist {
-   flex-direction: column;
-   flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   .developer {
     display: flex;
@@ -100,8 +100,8 @@
   }
 }
 
-@media screen and (max-width: 450px){
-  .LandingPage{
+@media screen and (max-width: 450px) {
+  .LandingPage {
     width: 100vw;
   }
   .smallHi {
@@ -125,10 +125,9 @@
     display: flex;
     flex-direction: column;
   }
-
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
   .Hi {
     font-size: 60px;
   }
@@ -147,15 +146,15 @@
     flex-direction: column;
   }
 }
-@media screen and (max-width: 300px){
-.inlinePeriod {
-  display: flex;
-  flex-direction: row;
-}
-.developer {
-  flex-direction: column;
-}
-.Hi {
-  margin-top: 30%;
-}
+@media screen and (max-width: 300px) {
+  .inlinePeriod {
+    display: flex;
+    flex-direction: row;
+  }
+  .developer {
+    flex-direction: column;
+  }
+  .Hi {
+    margin-top: 30%;
+  }
 }

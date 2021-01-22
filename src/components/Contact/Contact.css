@@ -6,7 +6,7 @@
 }
 .Contact_button:hover {
   text-shadow: 1px 1px black;
-  box-shadow: 3px 3px  #b2ab11;
+  box-shadow: 3px 3px #b2ab11;
 }
 .Resume_button:hover {
   text-shadow: 1px 1px #b2ab11;
@@ -15,11 +15,11 @@
 .Contact_text {
   font-size: 24px;
   margin: 1em 1em 40px 15%;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 .Contact_button {
-  padding: .5em 3.3em;
+  padding: 0.5em 3.3em;
   background-color: var(--gold);
   font-size: 16px;
   padding: 10px;
@@ -34,10 +34,9 @@
   margin-bottom: 0;
   align-self: flex-end;
   cursor: pointer;
-
 }
 .Resume_button {
-  padding: .5em 3.3em;
+  padding: 0.5em 3.3em;
   background-color: black;
   font-size: 16px;
   padding: 10px;
@@ -50,18 +49,16 @@
   color: var(--gold);
   margin-bottom: 1em;
   cursor: pointer;
-
 }
 
 .button {
   margin: 7% 9% 7% auto;
-  padding-bottom:0;
+  padding-bottom: 0;
   background-color: transparent;
   outline: none;
   display: flex;
   flex-direction: column;
   align-content: space-between;
-
 }
 
 .bold_text {
@@ -97,7 +94,7 @@ span {
   background-color: black;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .yellow_box {
     flex-direction: column;
   }
@@ -114,34 +111,33 @@ span {
   .yellow_box {
     margin-top: 30px;
   }
-  .Contact{
+  .Contact {
     margin-top: 0;
   }
-} 
-@media screen and (max-width: 374px){
+}
+@media screen and (max-width: 374px) {
   .yellow_box {
     margin: 15% auto;
   }
   .Contact_title {
     margin-left: 0;
     font-size: 40px;
-    margin:10% auto auto 15%;
-
+    margin: 10% auto auto 15%;
   }
-} 
+}
 @media screen and (max-width: 300px) {
-.Contact_title {
-  margin-left: 10%;
-}
-.Resume_button {
-  width: 11em;
-}
-.Contact_button {
-  width: 11em;
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-.button_link {
-  text-align: center;
-}
+  .Contact_title {
+    margin-left: 10%;
+  }
+  .Resume_button {
+    width: 11em;
+  }
+  .Contact_button {
+    width: 11em;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  .button_link {
+    text-align: center;
+  }
 }

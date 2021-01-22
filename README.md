@@ -15,7 +15,6 @@ The templates for the components were built using Hygen (https://www.hygen.io/).
 - NPM (https://www.npmjs.com/)
 - React (https://reactjs.org)
 - React Router (https://reactrouter.com/)
-- React Scrollchor (https://www.npmjs.com/package/react-scrollchor)
 - React Sticky-header (https://www.npmjs.com/package/react-sticky-header)
 
 

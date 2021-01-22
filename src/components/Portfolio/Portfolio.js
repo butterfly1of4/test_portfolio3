@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
 import "./Portfolio.css";
 import "../../index.css";
 import Tank from "../../assets/Tank_Icon.png";
@@ -14,8 +13,6 @@ import Sigma from "../../assets/sigma_1.png";
 import SWB from "../../assets/Statistics_screenshot_small.png";
 import Book from "../../assets/book_icon.png";
 import Address from "../../assets/small-pythoncli.png";
-
-import { Router, Link, Switch } from "react-router-dom";
 
 // React Class Component
 class Portfolio extends Component {
@@ -77,7 +74,8 @@ class Portfolio extends Component {
                     {" "}
                     <a
                       className="ViewCode deployed_link"
-                      href="https://butterfly1of4.github.io/ui-pattern/" target="_blank"
+                      href="https://butterfly1of4.github.io/ui-pattern/"
+                      target="_blank"
                     >
                       NASA PLANETS PAGE
                     </a>
@@ -235,31 +233,50 @@ class Portfolio extends Component {
 
           <p className="additionalWork">
             <h3 className="additionalTitle">
-              Additional <div className = "inlinePeriod">Work<div className="Period">:</div></div>
+              Additional{" "}
+              <div className="inlinePeriod">
+                Work<div className="Period">:</div>
+              </div>
             </h3>
             <p className="others">
               <ul className="others_list">
                 <li className="other-work">
-              <a className="other-links deployed_link" href="https://github.com/butterfly1of4/State_capitals" target="_blank">State Capitals Quiz</a><a
-                      className="ViewCode"
-                      href="https://github.com/butterfly1of4/State_capitals"
-                      target="_blank"
-                    >
-                      VIEW CODE
-                    </a>
-                    </li>
-                    <li className="other-work">
-              <a className="other-links deployed_link" href="https://github.com/butterfly1of4/Guessing-game" target="_blank">Number Guessing Game</a><a
-                      className="ViewCode"
-                      href="https://github.com/butterfly1of4/Guessing-game"
-                      target="_blank"
-                    >
-                      VIEW CODE
-                    </a>
-                    </li>
-                    </ul>
+                  <a
+                    className="other-links deployed_link"
+                    href="https://github.com/butterfly1of4/State_capitals"
+                    target="_blank"
+                  >
+                    State Capitals Quiz
+                  </a>
+                  <a
+                    className="ViewCode"
+                    href="https://github.com/butterfly1of4/State_capitals"
+                    target="_blank"
+                  >
+                    VIEW CODE
+                  </a>
+                </li>
+                <li className="other-work">
+                  <a
+                    className="other-links deployed_link"
+                    href="https://github.com/butterfly1of4/Guessing-game"
+                    target="_blank"
+                  >
+                    Number Guessing Game
+                  </a>
+                  <a
+                    className="ViewCode"
+                    href="https://github.com/butterfly1of4/Guessing-game"
+                    target="_blank"
+                  >
+                    VIEW CODE
+                  </a>
+                </li>
+              </ul>
             </p>
-            <div className="additionalItems">More projects are in the works!</div>
+            <div className="additionalItems">
+              More projects are in the works!
+            </div>
           </p>
         </div>
       </div>
@@ -271,4 +288,3 @@ export default Portfolio;
 
 // https://project8-backend.herokuapp.com/expire & https://project8-backend.herokuapp.com/release
 // https://github.com/butterfly1of4/GA-responsive-webiste
-
