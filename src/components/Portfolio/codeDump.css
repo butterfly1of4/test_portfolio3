@@ -1,0 +1,574 @@
+/* Current production CSS */
+
+.divider {
+  color: var(--gold);
+  padding: 0 10px;
+}
+.other-work {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  line-height: 1;
+  height: fit-content;
+  text-align: center;
+}
+.others_list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.additionalList {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  margin: auto 10% auto 2%;
+  line-height: 35px;
+}
+.additionalItems {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Open Sans", serif;
+  line-height: 50px;
+}
+.additionalWork {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 50px;
+  font-family: "Open Sans", serif;
+  margin-top: 10%;
+}
+
+.additionalTitle {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  display: flex;
+  background-color: var(--gold);
+  align-self: center;
+  margin-left: auto;
+  margin-right: -70%;
+  padding-top: 10%;
+}
+
+.thumbnail {
+  display: flex;
+  background-color: var(--gold);
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 15%;
+}
+.Address_project {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  padding-left: 0;
+}
+.SWB_project {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  padding-left: 0;
+}
+.Responsive_project {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  padding-left: 0;
+}
+.Nterflix_project {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  padding-left: 0;
+}
+.Nasa_project {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  padding-left: 0;
+}
+.war_screenshot {
+  height: inherit;
+  width: 100%;
+  margin-left: -3%;
+
+  margin-top: 10%;
+  justify-self: center;
+  align-self: center;
+}
+.War_project {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  padding-left: 0;
+}
+.ViewCode:hover {
+  text-shadow: 1px 1px;
+  /* text-shadow: 0 0 3px black, 0 0 5px #b2ab11; */
+}
+.ViewCode {
+  color: var(--gold);
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+}
+.deployed_link:hover {
+  text-shadow: 1px 1px;
+  text-decoration: underline;
+  color: white;
+  /* text-shadow: 0 0 3px black, 0 0 5px white; */
+}
+
+.deployed_link {
+  color: white;
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  text-decoration: none;
+}
+.bottom_links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  line-height: 1;
+  height: fit-content;
+  text-align: center;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  line-height: 1;
+  height: fit-content;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.flip_card {
+  background-color: transparent;
+  perspective: 1000px;
+}
+.flip_card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip_card:hover .flip_card_inner {
+  transform: rotateY(180deg);
+}
+.flip_card_front,
+.flip_card_back {
+  backface-visibility: hidden;
+}
+.flip_card_back {
+  transform: rotateY(180deg);
+  background-color: transparent;
+}
+.thumbnail_wrapper {
+  height: 100%;
+  display: flex;
+  background-color: var(--gold);
+}
+
+.project_item {
+  width: 22.5em;
+  height: 14.5em;
+  background-color: var(--gold);
+  margin-right: 2%;
+  box-sizing: border-box;
+  align-content: flex-start;
+  background-color: black;
+  display: flex;
+}
+.project_list {
+  display: flex;
+  list-style: none;
+  width: 97%;
+  padding: 2% 0;
+  background-color: black;
+}
+.pic_text_list {
+  display: flex;
+  flex-flow: column;
+}
+
+.project_wrapper_bottom {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  background-color: black;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: auto;
+  /* overflow:visible; */
+  max-width: 98vw;
+  height: 30%;
+  padding-top: 10%;
+}
+.project_wrapper {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  background-color: black;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: auto;
+  /* overflow:visible; */
+  max-width: 98vw;
+  height: 30%;
+}
+
+.Portfolio_title {
+  display: flex;
+  font-family: "Arvo";
+  font-size: 60px;
+  max-width: 98%;
+  margin-left: 10%;
+  background-color: black;
+}
+
+.Portfolio {
+  box-sizing: border-box;
+  flex-direction: column;
+  display: flex;
+  grid-row: 2;
+  grid-column: auto;
+  background-color: black;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .divider {
+    padding: 1px;
+  }
+  .others_list {
+    flex-direction: column;
+    margin-right: 10%;
+  }
+  .war_screenshot {
+   max-width: 95%;
+   max-height: 90%;
+   margin-left: -18%;
+  }
+  .project_list {
+    margin-right: 3%
+  }
+  .nterflix_thumbnail {
+    padding-bottom: 10%;
+  }
+  .nterflix_links {
+    padding-top: 18%;
+  }
+  .Nterflix{
+    margin-top: -1%
+  }
+  .icon {
+    margin-left: 9%;
+   
+  }
+}
+
+
+
+@media screen and (max-width: 450px) {
+  .icon {
+    margin-left:  auto;
+    padding-right: 25%;
+  }
+  .thumbnail {
+    padding-right: 13%;
+  }
+  .war_screenshot {
+    max-width: 85%;
+
+  }
+  .project_list {
+    flex-flow: column;
+
+  }
+  .additionalList {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project_item {
+    margin-top: 45%;
+  }
+  .Portfolio_title {
+    margin-bottom: 0;
+  }
+  .additionalWork {
+    margin-top: 30%;
+  }
+  .additionalTitle {
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10%;
+  }
+  .additionalItems {
+    margin-top:0;
+  }
+
+  .links {
+    padding-top: 15%;
+  }
+  .Address {
+    margin-top: 55%;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .Portfolio_title {
+    font-size: 60px;
+    margin-left: 7%;
+  }
+  .project_item {
+    max-width: 97%;
+    margin-left: 4%;
+    margin-bottom: 10%;
+
+  }
+  .Address{
+    margin-top: 40%;
+  }
+  /* .Responsive {
+    margin-top: 30%;
+  } */
+  .project_wrapper {
+    margin: 0;
+
+  }
+  .additionalTitle {
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10%;
+  }
+  .additionalItems {
+    margin-top: 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .additionalWork {
+    margin-top: 0;
+  }
+  .links {
+  padding-top: 10%;
+  }
+  .project_wrapper_bottom{
+    padding-top: 0;
+  }
+
+
+}
+  
+@media screen and (max-width: 300px){
+  .Statistics {
+    margin-top: 47%;
+  }
+  .Address {
+    margin-top: 45%;
+  }
+  .Portfolio_title {
+    font-size: 50px;
+  }
+
+  .additionalTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10%;;
+  }
+  .additionalItems {
+    margin: 10%;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .others_list{
+    flex-direction: column;
+   justify-content: center;
+   margin-right: 13%;
+  }
+}
+
+
+
+/*********************
+
+
+
+
+
+
+
+     /*
+     <ul className="additionalList">
+       <li className="bottom_links">
+         <a
+           href="https://butterfly1of4.github.io/GA-responsive-webiste/"
+           className="deployed_link"
+           target="_blank"
+         >
+           RESPONSIVE WEBPAGE
+         </a>
+         <a
+           className="ViewCode"
+           target="_blank"
+           href="https://github.com/butterfly1of4/GA-responsive-webiste"
+         >
+           VIEW CODE
+         </a>
+       </li>
+      
+       <li className="bottom_links">
+         <a
+           href="https://swbapp.netlify.app/"
+           className="deployed_link"
+           target="_blank"
+         >
+           STATISTICS WITHOUT BORDERS
+         </a>
+         <a
+           className="ViewCode"
+           target="_blank"
+           href="https://github.com/statisticswithoutborders/swb-app"
+         >
+           VIEW CODE
+         </a>
+       </li>
+       <li>
+         <div className="divider">|</div>
+       </li>
+       <li className="bottom_links">
+         <a href="" 
+         className="deployed_link"
+         // target="_blank"
+         >
+           ADDRESS BOOK
+         </a>
+         <a  
+         className="ViewCode"
+         href="https://github.com/butterfly1of4/python_CLI_project"
+         target="_blank">VIEW CODE</a>
+       </li>
+       {/* <li className="deployed_link">Project #3 {/* STORYBOOK }</li> */}
+       {/* <li>
+         <div className="divider">|</div>
+       </li> */}
+       {/* <li className="deployed_link">Project #4 </li> */}
+     /* </ul> */
+   /* </div> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Navbar extends Component {
+  constructor() {
+    super();
+    
+  
+  }
+  render() {
+    return (
+      <StickyHeader
+        header={
+          <nav className="NavBar">
+            <div className="Header ">
+              <a href="#Landing_Page" className="circleLogo">
+              <img src={CircleLogo} className="circleLogo" alt="circleLogo" />
+              </a>
+              <div className="Header_root">
+                <ul className="Nav_item_wrapper">
+                  <li className="Nav_item">
+                    <a
+                      className="Nav_link"
+                      style={{ textDecoration: "none" }}
+                      href="#Landing_Page"
+                    >
+                      HOME
+                    </a>
+                  </li>
+                  <li className="Nav_item">
+                    <a
+                      className="Nav_link"
+                      style={{ textDecoration: "none" }}
+                      href="#Portfolio"
+                    >
+                      PORTFOLIO
+                    </a>
+                  </li>
+                  <li className="Nav_item">
+                    <a
+                      className="Nav_link"
+                      style={{ textDecoration: "none" }}
+                      href="#Skills"
+                    >
+                      SKILLS
+                    </a>
+                  </li>
+                  <li className="Nav_item">
+                    <a
+                      className="Nav_link"
+                      style={{ textDecoration: "none" }}
+                      href="#About"
+                    >
+                      ABOUT
+                    </a>
+                  </li>
+                  <li className="Nav_item">
+                    <a
+                      className="Nav_link"
+                      style={{ textDecoration: "none" }}
+                      href="#Contact"
+                    >
+                      CONTACT
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        }
+      />
+    );
+  }
+}
+
+export default Navbar;

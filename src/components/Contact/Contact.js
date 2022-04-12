@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Contact.css";
 import "../../index.css";
-import CurrentResume from "../../CurrentResume.pdf";
+import JHouckResumeUpdated from "../../JHouckResumeUpdated.pdf";
 
 // React Class Component
 class Contact extends Component {
@@ -34,7 +34,7 @@ class Contact extends Component {
               <a
                 className="Resume_link"
                 style={{ textDecoration: "none" }}
-                href={CurrentResume}
+                href={JHouckResumeUpdated}
                 target="_blank"
               >
                 <button className="Resume_button">VIEW RESUME</button>

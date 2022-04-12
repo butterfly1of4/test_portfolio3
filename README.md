@@ -17,7 +17,7 @@ The templates for the components were built using Hygen (https://www.hygen.io/).
 - React Router (https://reactrouter.com/)
 - React Sticky-header (https://www.npmjs.com/package/react-sticky-header)
 
-
+###### Note: may need     "start": "react-scripts start" in package.json if the version is not correct
 
 ### devDependencies
     Github pages (https://www.npmjs.com/package/gh-pages)

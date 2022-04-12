@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./Portfolio.css";
 import "../../index.css";
-import Tank from "../../assets/Tank_Icon.png";
-import WarScreenshot from "../../assets/war_game_screenshot_small.png";
+import Tank_Icon from "../../assets/Tank_Icon.png";
+import War_game_screenshot from "../../assets/War_game_screenshot_small.png";
 import Planet from "../../assets/Planet_Icon.png";
 import NasaScreenshot from "../../assets/smallNasa-new.png";
 import Film from "../../assets/Film_Icon.png";
@@ -13,6 +13,8 @@ import Sigma from "../../assets/sigma_1.png";
 import SWB from "../../assets/Statistics_screenshot_small.png";
 import Book from "../../assets/book_icon.png";
 import Address from "../../assets/small-pythoncli.png";
+import Markdown from "../../assets/Markdown.png"
+import Md_logo from "../../assets/Md_logo.png"
 
 // React Class Component
 class Portfolio extends Component {
@@ -23,224 +25,203 @@ class Portfolio extends Component {
           Portfolio<div className="Period">.</div>
         </h1>
         <div className="pic_text_list">
-          <div className="project_wrapper">
-            <ul className="project_list">
-              {/* //Game of war */}
-              <li className="project_item flip_card War">
-                <ul className="War_project">
-                  <div className="thumbnail_wrapper flip_card_inner">
-                    <li className="thumbnail">
-                      {" "}
-                      <img className="icon  flip_card_front" src={Tank} />
-                      <img
-                        className="flip_card_back war_screenshot"
-                        src={WarScreenshot}
-                      />
-                    </li>
+          <div className="project_list">
+            {/* //Game of war */}
+            <div className="project_item">
+              <div className="flip_card">
+                <div className=" flip_card_inner">
+                  <div className=" flip_card_front">
+                    <img className="icon" src={Tank_Icon} />
                   </div>
-                  <li className="links">
-                    {" "}
-                    <a
-                      className="ViewCode deployed_link"
-                      target="_blank"
-                      href="https://butterfly1of4.github.io/Game-of-War/"
-                    >
-                      GAME OF WAR
-                    </a>
-                    <a
-                      className="ViewCode"
-                      target="_blank"
-                      href="https://github.com/butterfly1of4/Game-of-War"
-                    >
-                      VIEW CODE
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              {/* //Nasa */}
-              <li className="project_item flip_card Nasa">
-                <ul className="Nasa_project">
-                  <div className="thumbnail_wrapper flip_card_inner">
-                    <li className="thumbnail">
-                      {" "}
-                      <img className="icon flip_card_front" src={Planet} />
-                      <img
-                        className=" flip_card_back war_screenshot"
-                        src={NasaScreenshot}
-                      />
-                    </li>
+                  <div className="flip_card_back">
+                    <img className="screenshot" src={War_game_screenshot} />
                   </div>
-                  <li className="links">
-                    {" "}
-                    <a
-                      className="ViewCode deployed_link"
-                      href="https://butterfly1of4.github.io/ui-pattern/"
-                      target="_blank"
-                    >
-                      NASA PLANETS PAGE
-                    </a>
-                    <a
-                      className="ViewCode"
-                      target="_blank"
-                      href="https://github.com/butterfly1of4/ui-pattern"
-                    >
-                      VIEW CODE
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              {/* //Nterflix */}
-              <li className="project_item flip_card Nterflix">
-                <ul className="Nterflix_project">
-                  <div className="thumbnail_wrapper flip_card_inner">
-                    <li className="thumbnail nterflix_thumbnail">
-                      {" "}
-                      <img className="icon flip_card_front" src={Film} />
-                      <img
-                        className="flip_card_back war_screenshot"
-                        src={Nterflix}
-                      />
-                    </li>
-                  </div>
-                  <li className="links nterflix_links">
-                    {" "}
-                    <a
-                      className="ViewCode deployed_link"
-                      target="_blank"
-                      href="https://butterfly1of4.github.io/project8-frontend"
-                    >
-                      NTERFLIX
-                    </a>
-                    <a
-                      className="ViewCode"
-                      target="_blank"
-                      href="https://github.com/butterfly1of4/project8-frontend"
-                    >
-                      VIEW FRONTEND CODE
-                    </a>
-                    <a
-                      className="ViewCode"
-                      target="_blank"
-                      href="https://github.com/butterfly1of4/project8-backend"
-                    >
-                      VIEW BACKEND CODE
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div className="project_wrapper_bottom">
-            <ul className="project_list">
-              {/* //Responsive */}
-              <li className="project_item flip_card Responsive">
-                <ul className="Responsive_project">
-                  <div className="thumbnail_wrapper flip_card_inner">
-                    <li className="thumbnail">
-                      {" "}
-                      <img className="icon  flip_card_front" src={Pallete} />
-                      <img
-                        className="flip_card_back war_screenshot"
-                        src={Responsive}
-                      />
-                    </li>
-                  </div>
-                  <li className="links">
-                    {" "}
-                    <a
-                      href="https://butterfly1of4.github.io/GA-responsive-webiste/"
-                      className="deployed_link"
-                      target="_blank"
-                    >
-                      RESPONSIVE WEBPAGE
-                    </a>
-                    <a
-                      className="ViewCode"
-                      target="_blank"
-                      href="https://github.com/butterfly1of4/GA-responsive-webiste"
-                    >
-                      VIEW CODE
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              {/* Statistics */}
-              <li className="project_item flip_card Statistics">
-                <ul className="SWB_project">
-                  <div className="thumbnail_wrapper flip_card_inner">
-                    <li className="thumbnail">
-                      {" "}
-                      <img className="icon  flip_card_front" src={Sigma} />
-                      <img
-                        className="flip_card_back war_screenshot"
-                        src={SWB}
-                      />
-                    </li>
-                  </div>
-                  <li className="links swb_links">
-                    {" "}
-                    <a
-                      href="https://swbapp.netlify.app/"
-                      className="deployed_link"
-                      target="_blank"
-                    >
-                      STATISTICS WITHOUT BORDERS
-                    </a>
-                    <a
-                      className="ViewCode"
-                      target="_blank"
-                      href="https://github.com/statisticswithoutborders/swb-app"
-                    >
-                      VIEW CODE
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              {/* Python Address Book */}
-              <li className="project_item flip_card Address">
-                <ul className="Address_project">
-                  <div className="thumbnail_wrapper flip_card_inner">
-                    <li className="thumbnail">
-                      {" "}
-                      <img className="icon  flip_card_front" src={Book} />
-                      <img
-                        className="flip_card_back war_screenshot"
-                        src={Address}
-                      />
-                    </li>
-                  </div>
-                  <li className="links">
-                    {" "}
-                    <a
-                      href=""
-                      className="deployed_link"
-                      // target="_blank"
-                    >
-                      ADDRESS BOOK
-                    </a>
-                    <a
-                      className="ViewCode"
-                      href="https://github.com/butterfly1of4/python_CLI_project"
-                      target="_blank"
-                    >
-                      VIEW CODE
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+                </div>
+              </div>
+              <div className="links">
+                <a
+                  className="ViewCode deployed_link"
+                  target="_blank"
+                  href="https://butterfly1of4.github.io/Game-of-War/"
+                >
+                  GAME OF WAR
+                </a>
+                <a
+                  className="ViewCode"
+                  target="_blank"
+                  href="https://github.com/butterfly1of4/Game-of-War"
+                >
+                  VIEW CODE
+                </a>
+              </div>
+            </div>
 
+            {/* //Nasa */}
+            <div className="project_item">
+              <div className="flip_card">
+                <div className=" flip_card_inner">
+                  <div className=" flip_card_front">
+                    <img className="icon " src={Planet} />
+                  </div>
+                  <div className="flip_card_back">
+                    <img className="screenshot" src={NasaScreenshot} />
+                  </div>
+                </div>
+              </div>
+              <div className="links">
+                <a
+                  className="ViewCode deployed_link"
+                  href="https://butterfly1of4.github.io/ui-pattern/"
+                  target="_blank"
+                >
+                  NASA PLANETS PAGE
+                </a>
+                <a
+                  className="ViewCode"
+                  target="_blank"
+                  href="https://github.com/butterfly1of4/ui-pattern"
+                >
+                  VIEW CODE
+                </a>
+              </div>
+            </div>
+            {/* //Nterflix */}
+            <div className="project_item">
+              <div className="flip_card">
+                <div className=" flip_card_inner">
+                  <div className="  flip_card_front">
+                    <img className="icon" src={Film} />
+                  </div>
+                  <div className="flip_card_back">
+                    <img className=" screenshot" src={Nterflix} />
+                  </div>
+                </div>
+              </div>
+              <div className="links">
+                <a
+                  className="ViewCode deployed_link"
+                  target="_blank"
+                  href="https://butterfly1of4.github.io/project8-frontend"
+                >
+                  NTERFLIX
+                </a>
+                <a
+                  className="ViewCode"
+                  target="_blank"
+                  href="https://github.com/butterfly1of4/project8-frontend"
+                >
+                  VIEW FRONTEND CODE
+                </a>
+                <a
+                  className="ViewCode"
+                  target="_blank"
+                  href="https://github.com/butterfly1of4/project8-backend"
+                >
+                  VIEW BACKEND CODE
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="project_list">
+            {/* //Responsive */}
+            <div className="project_item">
+              <div className="flip_card">
+                <div className=" flip_card_inner">
+                  <div className=" flip_card_front">
+                    <img className="icon  " src={Pallete} />
+                  </div>
+                  <div className="flip_card_back">
+                    <img className="screenshot" src={Responsive} />
+                  </div>
+                </div>
+              </div>
+              <div className="links">
+                <a
+                  href="https://butterfly1of4.github.io/GA-responsive-webiste/"
+                  className="deployed_link"
+                  target="_blank"
+                >
+                  RESPONSIVE WEBPAGE
+                </a>
+                <a
+                  className="ViewCode"
+                  target="_blank"
+                  href="https://github.com/butterfly1of4/GA-responsive-webiste"
+                >
+                  VIEW CODE
+                </a>
+              </div>
+            </div>
+            {/* Statistics */}
+            <div className="project_item">
+              <div className="flip_card">
+                <div className=" flip_card_inner">
+                  <div className=" flip_card_front">
+                    <img className="icon" src={Sigma} />
+                  </div>
+                  <div className="flip_card_back">
+                    <img className="screenshot" src={SWB} />
+                  </div>
+                </div>
+              </div>
+              <div className="links">
+                <a
+                  href="https://swbapp.netlify.app/"
+                  className="deployed_link"
+                  target="_blank"
+                >
+                  STATISTICS WITHOUT BORDERS
+                </a>
+                <a
+                  className="ViewCode"
+                  target="_blank"
+                  href="https://github.com/statisticswithoutborders/swb-app"
+                >
+                  VIEW CODE
+                </a>
+              </div>
+            </div>
+           
+              {/* Markdown Preview */}
+              <div className="project_item ">
+              <div className="flip_card">
+                <div className=" flip_card_inner">
+                  <div className=" flip_card_front">
+                    <img className="icon  " src={Md_logo} />
+                  </div>
+                  <div className="flip_card_back">
+                    <img className="screenshot" src={Markdown} />
+                  </div>
+                </div>
+              </div>
+              <div className="links">
+              <a
+                  href="https://react-markdown-previewer-butterfly1of4.netlify.app/"
+                  className="deployed_link"
+                  target="_blank"
+                >
+                  MARKDOWN PRE-VIEWER
+                </a>
+                <a
+                  className="ViewCode"
+                  href="https://github.com/butterfly1of4/React-Markdown-Viewer"
+                  target="_blank"
+                >
+                  VIEW CODE
+                </a>
+              </div>
+            </div>
+          </div>
           <p className="additionalWork">
             <h3 className="additionalTitle">
-              Additional{" "}
-              <div className="inlinePeriod">
+              Additional
+              <div className="inlinePeriod work_period">
                 Work<div className="Period">:</div>
               </div>
             </h3>
             <p className="others">
-              <ul className="others_list">
-                <li className="other-work">
+              <div className="others_list">
+                <div className="other-work">
                   <a
                     className="other-links deployed_link"
                     href="https://github.com/butterfly1of4/State_capitals"
@@ -255,8 +236,24 @@ class Portfolio extends Component {
                   >
                     VIEW CODE
                   </a>
-                </li>
-                <li className="other-work">
+                </div>
+                <div className="other-work">
+                   <a
+                  href=""
+                  className="deployed_link"
+                  // target="_blank"
+                >
+                  Address Book
+                </a>
+                <a
+                  className="ViewCode"
+                  href="https://github.com/butterfly1of4/python_CLI_project"
+                  target="_blank"
+                >
+                  VIEW CODE
+                </a>
+                </div>
+                <div className="other-work">
                   <a
                     className="other-links deployed_link"
                     href="https://github.com/butterfly1of4/Guessing-game"
@@ -271,8 +268,8 @@ class Portfolio extends Component {
                   >
                     VIEW CODE
                   </a>
-                </li>
-              </ul>
+                </div>
+              </div>
             </p>
             <div className="additionalItems">
               More projects are in the works!
