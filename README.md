@@ -19,9 +19,6 @@ The templates for the components were built using Hygen (https://www.hygen.io/).
 
 ###### Note: may need     "start": "react-scripts start" in package.json if the version is not correct
 
-### devDependencies
-    Github pages (https://www.npmjs.com/package/gh-pages)
-
 ## Initialization:
     To run the program locally, clone this repository from the _master_ branch.
 

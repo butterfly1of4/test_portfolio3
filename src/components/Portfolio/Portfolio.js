@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Portfolio.css";
 import "../../index.css";
 import Tank_Icon from "../../assets/Tank_Icon.png";
-import War_game_screenshot from "../../assets/War_game_screenshot_small.png";
+import War_game_screenshot from "../../assets/war_game_screenshot_small.png";
 import Planet from "../../assets/Planet_Icon.png";
 import NasaScreenshot from "../../assets/smallNasa-new.png";
 import Film from "../../assets/Film_Icon.png";
